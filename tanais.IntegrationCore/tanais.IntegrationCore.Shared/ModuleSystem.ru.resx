@@ -67,13 +67,19 @@
   <data name="CoverDescription" xml:space="preserve">
     <value>Модуль предназначен для настройки интеграции с внешней системой.</value>
   </data>
-  <data name="CoverGroup_IntegrationGroup" xml:space="preserve">
-    <value>Интеграция</value>
+  <data name="CoverGroup_Settings" xml:space="preserve">
+    <value>Настройки</value>
   </data>
-  <data name="CoverAction_IntegratedSystemsAction" xml:space="preserve">
+  <data name="CoverAction_IntegratedSystems" xml:space="preserve">
     <value>Интегрированные системы</value>
   </data>
-  <data name="CoverDescription_IntegratedSystemsAction" xml:space="preserve">
+  <data name="CoverDescription_IntegratedSystems" xml:space="preserve">
     <value>Справочник содержит информацию о внешних системах, с которыми интегрирована система Directum RX.</value>
+  </data>
+  <data name="CoverAction_IntegrationSetting" xml:space="preserve">
+    <value>Настройки интеграции</value>
+  </data>
+  <data name="CoverDescription_IntegrationSetting" xml:space="preserve">
+    <value>Справочник предназначен для настройки интеграции с внешней системой.</value>
   </data>
 </root>

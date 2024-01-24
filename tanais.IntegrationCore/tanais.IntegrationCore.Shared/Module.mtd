@@ -15,9 +15,17 @@
       {
         "$type": "Sungero.Metadata.CoverEntityListActionMetadata, Sungero.Metadata",
         "NameGuid": "87a1882a-a5a9-4dfc-902a-5d5f6a5bb8de",
-        "Name": "IntegratedSystemsAction",
+        "Name": "IntegratedSystems",
         "EntityTypeId": "7db7fde0-5e2c-42b8-953c-003ed10d57df",
         "GroupId": "35247807-47b6-42df-bb0f-944a98c8c427"
+      },
+      {
+        "$type": "Sungero.Metadata.CoverEntityListActionMetadata, Sungero.Metadata",
+        "NameGuid": "f124662f-4da1-4535-b742-bc077a3aef4a",
+        "Name": "IntegrationSetting",
+        "EntityTypeId": "44528f5e-8f75-4ac7-a3cb-644fce085842",
+        "GroupId": "35247807-47b6-42df-bb0f-944a98c8c427",
+        "PreviousItemGuid": "87a1882a-a5a9-4dfc-902a-5d5f6a5bb8de"
       }
     ],
     "Background": null,
@@ -28,7 +36,7 @@
     "Groups": [
       {
         "NameGuid": "35247807-47b6-42df-bb0f-944a98c8c427",
-        "Name": "IntegrationGroup",
+        "Name": "Settings",
         "BackgroundPosition": "Stretch",
         "IconName": "GroupIconIntegrationGroup_3524780747b642dfbb0f944a98c8c427.png",
         "TabId": "404c8359-6459-43f6-933d-911fde3d770a"
@@ -56,6 +64,10 @@
   "ExplorerTreeOrder": [
     {
       "ItemId": "7db7fde0-5e2c-42b8-953c-003ed10d57df"
+    },
+    {
+      "ItemId": "44528f5e-8f75-4ac7-a3cb-644fce085842",
+      "PreviousItemId": "7db7fde0-5e2c-42b8-953c-003ed10d57df"
     }
   ],
   "IconResourcesKeys": [],

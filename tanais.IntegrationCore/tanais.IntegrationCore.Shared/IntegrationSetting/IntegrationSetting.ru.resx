@@ -58,31 +58,31 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="DisplayName" xml:space="preserve">
-    <value>Integration core</value>
+  <data name="SetPasswordWarningMessage" xml:space="preserve">
+    <value>Для изменения пароля воспользуйтесь кнопкой Установить пароль</value>
   </data>
-  <data name="CoverTitle" xml:space="preserve">
-    <value>Integration</value>
+  <data name="SetPasswordDialogTitle" xml:space="preserve">
+    <value>Установить пароль</value>
   </data>
-  <data name="CoverDescription" xml:space="preserve">
-    <value>The module is designed to configure integration with an external system.</value>
+  <data name="EnterPasswordFieldTitle" xml:space="preserve">
+    <value>Введите пароль</value>
   </data>
-  <data name="CoverTab_Tab" xml:space="preserve">
-    <value>Tab</value>
+  <data name="ConfirmPasswordFieldTitle" xml:space="preserve">
+    <value>Подтвердите пароль</value>
   </data>
-  <data name="CoverGroup_Settings" xml:space="preserve">
-    <value>Settings</value>
+  <data name="NotEqualsPasswordMessage" xml:space="preserve">
+    <value>Пароли не совпадают, попробуйте еще раз. </value>
   </data>
-  <data name="CoverAction_IntegratedSystems" xml:space="preserve">
-    <value>Integrated systems</value>
+  <data name="SetKeyDialogTitle" xml:space="preserve">
+    <value>Указать ключ</value>
   </data>
-  <data name="CoverDescription_IntegratedSystems" xml:space="preserve">
-    <value>The reference contains information on external systems with which the Directum RX system is integrated.</value>
+  <data name="EnterKeyFieldTitle" xml:space="preserve">
+    <value>Введите ключ</value>
   </data>
-  <data name="CoverAction_IntegrationSetting" xml:space="preserve">
-    <value>Integration settings</value>
+  <data name="ConfirmKeyDialogFieldTitle" xml:space="preserve">
+    <value>Подтвердите ключ</value>
   </data>
-  <data name="CoverDescription_IntegrationSetting" xml:space="preserve">
-    <value>The reference book is intended for setting up integration with an external system.</value>
+  <data name="NotEqualsKeyMessage" xml:space="preserve">
+    <value>Ключи не совпадают, попробуйте еще раз.</value>
   </data>
 </root>

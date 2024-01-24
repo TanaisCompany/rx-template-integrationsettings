@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Property_Name" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Настройка интеграции</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Настройку интеграции</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Настройки интеграции</value>
+  </data>
+  <data name="Property_IntegratedSystem" xml:space="preserve">
+    <value>Интегрированная система</value>
+  </data>
+  <data name="Property_BusinessUnit" xml:space="preserve">
+    <value>Наша организация</value>
+  </data>
+  <data name="Property_Postfix" xml:space="preserve">
+    <value>Постфикс</value>
+  </data>
+  <data name="Property_Address" xml:space="preserve">
+    <value>Адрес</value>
+  </data>
+  <data name="Property_Login" xml:space="preserve">
+    <value>Имя пользователя</value>
+  </data>
+  <data name="Property_Password" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="Property_Note" xml:space="preserve">
+    <value>Примечание</value>
+  </data>
+  <data name="Property_VisiblePassword" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="Property_AccessKey" xml:space="preserve">
+    <value>Ключ доступа</value>
+  </data>
+  <data name="Property_AuthMethod" xml:space="preserve">
+    <value>Способ авторизации</value>
+  </data>
+  <data name="Enum_AuthMethod_Password" xml:space="preserve">
+    <value>По паролю</value>
+  </data>
+  <data name="Enum_AuthMethod_Token" xml:space="preserve">
+    <value>По токену</value>
+  </data>
+  <data name="Enum_AuthMethod_Key" xml:space="preserve">
+    <value>По ключу</value>
+  </data>
+  <data name="Property_VisibleAccessKey" xml:space="preserve">
+    <value>Ключ доступа</value>
+  </data>
+  <data name="Action_SetPassword" xml:space="preserve">
+    <value>Установить пароль</value>
+  </data>
+  <data name="Action_SetPasswordHint" xml:space="preserve">
+    <value>Установка пароля</value>
+  </data>
+  <data name="Action_SetPasswordDescription" xml:space="preserve">
+    <value>Установка пароля</value>
+  </data>
+  <data name="Action_SpecifyKey" xml:space="preserve">
+    <value>Указать ключ</value>
+  </data>
+  <data name="Action_SpecifyKeyHint" xml:space="preserve">
+    <value>Указать ключ</value>
+  </data>
+  <data name="Action_SpecifyKeyDescription" xml:space="preserve">
+    <value>Указать ключ</value>
+  </data>
+  <data name="Ribbon_Other_c031752aa40841c2af31d319c54bc959" xml:space="preserve">
+    <value>Прочее</value>
+  </data>
+  <data name="ControlGroup_aa27b9f1afe94be58489816fc977a3c6" xml:space="preserve">
+    <value>Авторизация</value>
+  </data>
+  <data name="ControlGroup_c0a3478b2e7947859a4af6ebe5f598ed" xml:space="preserve">
+    <value>Примечание</value>
+  </data>
+</root>

@@ -416,6 +416,27 @@
       "PreviousPropertyGuid": "2cc8b5c8-62c8-415f-9ceb-e07741ef21ef"
     }
   ],
+  "PublicFunctions": [
+    {
+      "Name": "GetIntegrationSettingBySystem",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "integrationSetting",
+          "ParameterType": "global::tanais.IntegrationCore.IIntegrationSetting",
+          "ParameterTypeFullName": "tanais.IntegrationCore.IIntegrationSetting, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "integratedSystem",
+          "ParameterType": "global::tanais.IntegrationCore.IIntegratedSystem",
+          "ParameterTypeFullName": "tanais.IntegrationCore.IIntegratedSystem, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::tanais.IntegrationCore.IIntegrationSetting",
+      "ReturnTypeFullName": "tanais.IntegrationCore.IIntegrationSetting, Sungero.Domain.Interfaces"
+    }
+  ],
   "PublicStructures": [],
   "ResourcesKeys": [
     "SetPasswordWarningMessage",
@@ -426,7 +447,9 @@
     "SetKeyDialogTitle",
     "EnterKeyFieldTitle",
     "ConfirmKeyDialogFieldTitle",
-    "NotEqualsKeyMessage"
+    "NotEqualsKeyMessage",
+    "IntegratedSystemIsNoteFilled",
+    "IntegrationSettingNotFound"
   ],
   "RibbonCardMetadata": {
     "NameGuid": "5b3d15af-ddf8-4398-91fa-b72ae5cf2823",

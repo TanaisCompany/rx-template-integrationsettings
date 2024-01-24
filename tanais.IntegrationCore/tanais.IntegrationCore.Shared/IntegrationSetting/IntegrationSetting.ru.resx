@@ -85,4 +85,10 @@
   <data name="NotEqualsKeyMessage" xml:space="preserve">
     <value>Ключи не совпадают, попробуйте еще раз.</value>
   </data>
+  <data name="IntegratedSystemIsNoteFilled" xml:space="preserve">
+    <value>IntegrationCore. Integrated system not specified</value>
+  </data>
+  <data name="IntegrationSettingNotFound" xml:space="preserve">
+    <value>IntegrationCore. Integration settings for system {0} not found</value>
+  </data>
 </root>

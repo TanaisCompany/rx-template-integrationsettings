@@ -58,4 +58,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Интеграция</value>
+  </data>
+  <data name="CoverTitle" xml:space="preserve">
+    <value>Интеграция</value>
+  </data>
+  <data name="CoverDescription" xml:space="preserve">
+    <value>Модуль предназначен для настройки интеграции с внешней системой.</value>
+  </data>
+  <data name="CoverGroup_IntegrationGroup" xml:space="preserve">
+    <value>Интеграция</value>
+  </data>
+  <data name="CoverAction_IntegratedSystemsAction" xml:space="preserve">
+    <value>Интегрированные системы</value>
+  </data>
+  <data name="CoverDescription_IntegratedSystemsAction" xml:space="preserve">
+    <value>Справочник содержит информацию о внешних системах, с которыми интегрирована система Directum RX.</value>
+  </data>
 </root>

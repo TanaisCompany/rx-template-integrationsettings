@@ -169,8 +169,32 @@
       "PreviousPropertyGuid": "c840ca7a-eb63-48bc-9847-a179d915621c"
     }
   ],
+  "PublicFunctions": [
+    {
+      "Name": "GetIntegratedSystemByCode",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "integratedSystem",
+          "ParameterType": "global::tanais.IntegrationCore.IIntegratedSystem",
+          "ParameterTypeFullName": "tanais.IntegrationCore.IIntegratedSystem, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "systemCode",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::tanais.IntegrationCore.IIntegratedSystem",
+      "ReturnTypeFullName": "tanais.IntegrationCore.IIntegratedSystem, Sungero.Domain.Interfaces"
+    }
+  ],
   "PublicStructures": [],
-  "ResourcesKeys": [],
+  "ResourcesKeys": [
+    "SystemCodeIsNotFilled",
+    "IntegratedSystemNotFound"
+  ],
   "RibbonCardMetadata": {
     "NameGuid": "397dae70-6788-47e7-a572-901e968a0713",
     "Name": "RibbonCard",

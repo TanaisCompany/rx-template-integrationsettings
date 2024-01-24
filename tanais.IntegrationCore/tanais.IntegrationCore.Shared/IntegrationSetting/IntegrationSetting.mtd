@@ -257,6 +257,10 @@
       ]
     }
   ],
+  "HandledEvents": [
+    "BeforeSaveServer",
+    "ShowingClient"
+  ],
   "IconResourcesKeys": [],
   "IntegrationServiceName": "IntegrationCoreIntegrationSetting",
   "OperationsClass": "",
@@ -289,6 +293,9 @@
       "Code": "IntegratedSyst",
       "EntityGuid": "7db7fde0-5e2c-42b8-953c-003ed10d57df",
       "FlatListInStandaloneLookup": true,
+      "HandledEvents": [
+        "ChangedShared"
+      ],
       "IsRequired": true,
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
       "PreviousPropertyGuid": "fdc545f7-b7e6-4f89-9c79-a6ffd4b183a7"
@@ -300,6 +307,9 @@
       "Code": "BusinessUnit",
       "EntityGuid": "eff95720-181f-4f7d-892d-dec034c7b2ab",
       "FlatListInStandaloneLookup": true,
+      "HandledEvents": [
+        "ChangedShared"
+      ],
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToNavigationBinder",
       "PreviousPropertyGuid": "cecedc71-5ae8-4825-974e-6e7e8bb3e3cd"
     },
@@ -390,15 +400,13 @@
           "Code": "Key"
         },
         {
-          "NameGuid": "a1362852-12b9-4384-b981-e29ae2f93d94",
-          "Name": "Token",
-          "Code": "Token"
-        },
-        {
           "NameGuid": "d3a57dd1-dccc-4adb-8cd8-6b290f799822",
           "Name": "Password",
           "Code": "Password"
         }
+      ],
+      "HandledEvents": [
+        "ChangedShared"
       ],
       "IsRequired": true,
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
@@ -449,7 +457,10 @@
     "ConfirmKeyDialogFieldTitle",
     "NotEqualsKeyMessage",
     "IntegratedSystemIsNoteFilled",
-    "IntegrationSettingNotFound"
+    "IntegrationSettingNotFound",
+    "UniqueValueWarningMessage",
+    "RecordNameTemplateWithBusinessUnit",
+    "RecordNameTemplate"
   ],
   "RibbonCardMetadata": {
     "NameGuid": "5b3d15af-ddf8-4398-91fa-b72ae5cf2823",

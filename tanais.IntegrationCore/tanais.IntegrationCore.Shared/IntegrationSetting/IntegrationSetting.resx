@@ -91,4 +91,13 @@
   <data name="IntegrationSettingNotFound" xml:space="preserve">
     <value>IntegrationCore. Integration settings for system {0} not found</value>
   </data>
+  <data name="UniqueValueWarningMessage" xml:space="preserve">
+    <value>Enter a unique postfix value and re-save the directory entry</value>
+  </data>
+  <data name="RecordNameTemplateWithBusinessUnit" xml:space="preserve">
+    <value>Integration {0} for {1}</value>
+  </data>
+  <data name="RecordNameTemplate" xml:space="preserve">
+    <value>Integration {0}</value>
+  </data>
 </root>

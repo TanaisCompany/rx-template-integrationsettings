@@ -103,9 +103,6 @@
   <data name="Enum_AuthMethod_Password" xml:space="preserve">
     <value>По паролю</value>
   </data>
-  <data name="Enum_AuthMethod_Token" xml:space="preserve">
-    <value>По токену</value>
-  </data>
   <data name="Enum_AuthMethod_Key" xml:space="preserve">
     <value>По ключу</value>
   </data>

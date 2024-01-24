@@ -91,4 +91,13 @@
   <data name="IntegrationSettingNotFound" xml:space="preserve">
     <value>IntegrationCore. Integration settings for system {0} not found</value>
   </data>
+  <data name="UniqueValueWarningMessage" xml:space="preserve">
+    <value>Введите уникальное значение постфикса и повторно сохраните запись справочника</value>
+  </data>
+  <data name="RecordNameTemplateWithBusinessUnit" xml:space="preserve">
+    <value>Интеграция {0} для {1}</value>
+  </data>
+  <data name="RecordNameTemplate" xml:space="preserve">
+    <value>Интеграция {0}</value>
+  </data>
 </root>

@@ -148,7 +148,6 @@
       "Name": "Code",
       "Code": "Code",
       "IsDisplayValue": true,
-      "IsEnabled": false,
       "IsQuickSearchAllowed": true,
       "IsRequired": true,
       "IsUnique": true,

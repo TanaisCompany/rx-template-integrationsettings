@@ -115,9 +115,6 @@
       ]
     }
   ],
-  "HandledEvents": [
-    "ShowingClient"
-  ],
   "IconResourcesKeys": [],
   "IntegrationServiceName": "IntegrationCoreIntegratedSystem",
   "OperationsClass": "",

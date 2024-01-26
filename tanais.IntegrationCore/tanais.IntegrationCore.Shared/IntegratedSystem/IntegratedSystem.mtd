@@ -170,11 +170,6 @@
       "IsRemote": true,
       "Parameters": [
         {
-          "Name": "integratedSystem",
-          "ParameterType": "global::tanais.IntegrationCore.IIntegratedSystem",
-          "ParameterTypeFullName": "tanais.IntegrationCore.IIntegratedSystem, Sungero.Domain.Interfaces"
-        },
-        {
           "Name": "systemCode",
           "ParameterType": "global::System.String",
           "ParameterTypeFullName": "System.String"

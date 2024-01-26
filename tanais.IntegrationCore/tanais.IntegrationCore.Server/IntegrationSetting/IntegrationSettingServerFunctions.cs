@@ -16,7 +16,7 @@ namespace tanais.IntegrationCore.Server
     /// <param name="integratedSystem">Интегрированная система.</param>
     /// <returns>Настройка интегрированной системы.</returns>
     [Public, Remote]
-    public tanais.IntegrationCore.IIntegrationSetting GetIntegrationSettingBySystem(tanais.IntegrationCore.IIntegratedSystem integratedSystem)
+    public static tanais.IntegrationCore.IIntegrationSetting GetIntegrationSettingBySystem(tanais.IntegrationCore.IIntegratedSystem integratedSystem)
     {
       if (integratedSystem == null)
         throw new Exception(tanais.IntegrationCore.IntegrationSettings.Resources.IntegratedSystemIsNoteFilled);

@@ -7,13 +7,4 @@ using tanais.IntegrationCore.IntegratedSystem;
 
 namespace tanais.IntegrationCore
 {
-  partial class IntegratedSystemClientHandlers
-  {
-
-    public override void Showing(Sungero.Presentation.FormShowingEventArgs e)
-    {
-      _obj.State.Properties.Code.IsEnabled = _obj.State.IsInserted;
-    }
-
-  }
 }

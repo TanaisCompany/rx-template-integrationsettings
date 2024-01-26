@@ -115,9 +115,6 @@
       ]
     }
   ],
-  "HandledEvents": [
-    "ShowingClient"
-  ],
   "IconResourcesKeys": [],
   "IntegrationServiceName": "IntegrationCoreIntegratedSystem",
   "OperationsClass": "",
@@ -151,7 +148,6 @@
       "Name": "Code",
       "Code": "Code",
       "IsDisplayValue": true,
-      "IsEnabled": false,
       "IsQuickSearchAllowed": true,
       "IsRequired": true,
       "IsUnique": true,

@@ -11,18 +11,39 @@
   "CompanyCode": "tanais",
   "Cover": {
     "NameGuid": "c4bc0969-d07c-4f5e-82d1-2a85c85367d8",
-    "Actions": [],
+    "Actions": [
+      {
+        "$type": "Sungero.Metadata.CoverEntityListActionMetadata, Sungero.Metadata",
+        "NameGuid": "87a1882a-a5a9-4dfc-902a-5d5f6a5bb8de",
+        "Name": "IntegratedSystemsAction",
+        "EntityTypeId": "7db7fde0-5e2c-42b8-953c-003ed10d57df",
+        "GroupId": "35247807-47b6-42df-bb0f-944a98c8c427"
+      }
+    ],
     "Background": null,
     "Footer": {
       "NameGuid": "5503e90e-7f0e-41bb-b186-d40e80a1b8fe",
       "BackgroundPosition": "Stretch"
     },
-    "Groups": [],
+    "Groups": [
+      {
+        "NameGuid": "35247807-47b6-42df-bb0f-944a98c8c427",
+        "Name": "IntegrationGroup",
+        "BackgroundPosition": "Stretch",
+        "IconName": "GroupIconIntegrationGroup_3524780747b642dfbb0f944a98c8c427.png",
+        "TabId": "404c8359-6459-43f6-933d-911fde3d770a"
+      }
+    ],
     "Header": {
       "NameGuid": "00f7761c-a941-4b9d-bc06-da4debc63913",
       "BackgroundPosition": "Stretch"
     },
-    "Tabs": []
+    "Tabs": [
+      {
+        "NameGuid": "404c8359-6459-43f6-933d-911fde3d770a",
+        "Name": "Tab"
+      }
+    ]
   },
   "Dependencies": [
     {
@@ -32,12 +53,20 @@
       "MinVersion": ""
     }
   ],
+  "ExplorerTreeOrder": [
+    {
+      "ItemId": "7db7fde0-5e2c-42b8-953c-003ed10d57df"
+    }
+  ],
   "IconResourcesKeys": [],
   "Importance": "Medium",
   "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
   "InterfaceNamespace": "tanais.IntegrationCore",
   "IsolatedAssemblyName": "tanais.IntegrationCore.Isolated",
   "IsolatedNamespace": "tanais.IntegrationCore.Isolated",
+  "Overridden": [
+    "IsVisible"
+  ],
   "PublicStructures": [],
   "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
   "ResourceInterfaceNamespace": "tanais.IntegrationCore",

@@ -58,31 +58,46 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="DisplayName" xml:space="preserve">
-    <value>Integration core</value>
+  <data name="SetPasswordWarningMessage" xml:space="preserve">
+    <value>To change your password, use the Set Password button</value>
   </data>
-  <data name="CoverTitle" xml:space="preserve">
-    <value>Integration</value>
+  <data name="SetPasswordDialogTitle" xml:space="preserve">
+    <value>Set password</value>
   </data>
-  <data name="CoverDescription" xml:space="preserve">
-    <value>The module is designed to configure integration with an external system.</value>
+  <data name="EnterPasswordFieldTitle" xml:space="preserve">
+    <value>Enter password</value>
   </data>
-  <data name="CoverTab_Tab" xml:space="preserve">
-    <value>Tab</value>
+  <data name="ConfirmPasswordFieldTitle" xml:space="preserve">
+    <value>Confirm password</value>
   </data>
-  <data name="CoverGroup_Settings" xml:space="preserve">
-    <value>Settings</value>
+  <data name="NotEqualsPasswordMessage" xml:space="preserve">
+    <value>Passwords don't match, please try again.</value>
   </data>
-  <data name="CoverAction_IntegratedSystems" xml:space="preserve">
-    <value>Integrated systems</value>
+  <data name="SetKeyDialogTitle" xml:space="preserve">
+    <value>Specify a key</value>
   </data>
-  <data name="CoverDescription_IntegratedSystems" xml:space="preserve">
-    <value>The reference contains information on external systems with which the Directum RX system is integrated.</value>
+  <data name="EnterKeyFieldTitle" xml:space="preserve">
+    <value>Enter key</value>
   </data>
-  <data name="CoverAction_IntegrationSetting" xml:space="preserve">
-    <value>Integration settings</value>
+  <data name="ConfirmKeyDialogFieldTitle" xml:space="preserve">
+    <value>Confirm the key</value>
   </data>
-  <data name="CoverDescription_IntegrationSetting" xml:space="preserve">
-    <value>The reference book is intended for setting up integration with an external system.</value>
+  <data name="NotEqualsKeyMessage" xml:space="preserve">
+    <value>Keys don't match, please try again.</value>
+  </data>
+  <data name="IntegratedSystemIsNoteFilled" xml:space="preserve">
+    <value>IntegrationCore. Integrated system not specified</value>
+  </data>
+  <data name="IntegrationSettingNotFound" xml:space="preserve">
+    <value>IntegrationCore. Integration settings for system {0} not found</value>
+  </data>
+  <data name="UniqueValueWarningMessage" xml:space="preserve">
+    <value>Enter a unique postfix value and re-save the directory entry</value>
+  </data>
+  <data name="RecordNameTemplateWithBusinessUnit" xml:space="preserve">
+    <value>Integration {0} for {1}</value>
+  </data>
+  <data name="RecordNameTemplate" xml:space="preserve">
+    <value>Integration {0}</value>
   </data>
 </root>

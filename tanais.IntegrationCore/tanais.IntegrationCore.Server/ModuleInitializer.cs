@@ -50,6 +50,9 @@ namespace tanais.IntegrationCore.Server
       {
         InitializationLogger.Debug("Init: Grant rights on IntegrationSetting to readIntegrationSettingRole.");
         GrantRightsOnEntityType(readIntegrationSettingRole, IntegrationSettings.AccessRights, DefaultAccessRightsTypes.Read);
+        
+        InitializationLogger.Debug("Init: Grant rights on IntegratedSystems to readIntegrationSettingRole.");
+        GrantRightsOnEntityType(readIntegrationSettingRole, IntegratedSystems.AccessRights, DefaultAccessRightsTypes.Read);
       }
       
       var integrationResponsibleRole = GetRoleByGuid(Constants.Module.RoleGuid.IntegrationResponsibleRole);

@@ -70,19 +70,61 @@
       "PreviousItemId": "7db7fde0-5e2c-42b8-953c-003ed10d57df"
     }
   ],
+  "HandledEvents": [
+    "InitializingServer",
+    "VisibilityServer"
+  ],
   "IconResourcesKeys": [],
   "Importance": "Medium",
+  "InitializationFunctions": [
+    {
+      "Name": "GetRoleByGuid",
+      "Parameters": [
+        {
+          "Name": "roleGuid",
+          "ParameterType": "global::System.Guid",
+          "ParameterTypeFullName": "System.Guid"
+        }
+      ],
+      "ReturnType": "global::Sungero.CoreEntities.IRole",
+      "ReturnTypeFullName": "Sungero.CoreEntities.IRole, Sungero.Domain.Shared"
+    }
+  ],
   "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
   "InterfaceNamespace": "tanais.IntegrationCore",
   "IsolatedAssemblyName": "tanais.IntegrationCore.Isolated",
   "IsolatedNamespace": "tanais.IntegrationCore.Isolated",
+  "IsVisible": false,
   "Overridden": [
     "IsVisible"
+  ],
+  "PublicConstants": [
+    {
+      "Name": "IntegrationResponsibleRole",
+      "ParentClasses": [
+        "Module",
+        "RoleGuid"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"8ddf12da-a8d1-48e2-8b3a-093f42e0793b\")"
+    },
+    {
+      "Name": "ReadIntegrationSettingRole",
+      "ParentClasses": [
+        "Module",
+        "RoleGuid"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"7ae3a651-7271-4261-854b-d56f522e532c\")"
+    }
   ],
   "PublicStructures": [],
   "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
   "ResourceInterfaceNamespace": "tanais.IntegrationCore",
-  "ResourcesKeys": [],
+  "ResourcesKeys": [
+    "IntegrationResponsible",
+    "ReadIntegrationSettingRoleName"
+  ],
   "ServerAssemblyName": "tanais.IntegrationCore.Server",
   "ServerNamespace": "tanais.IntegrationCore.Server",
   "SharedAssemblyName": "tanais.IntegrationCore.Shared",

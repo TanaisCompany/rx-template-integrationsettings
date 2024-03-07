@@ -14,19 +14,22 @@ namespace tanais.IntegrationCore.Server
     /// Получить настройку интегрированной системы.
     /// </summary>
     /// <param name="integratedSystem">Интегрированная система.</param>
+    /// <param name="postfix">Постфикс.</param>
     /// <returns>Настройка интегрированной системы.</returns>
     [Public, Remote]
-    public static tanais.IntegrationCore.IIntegrationSetting GetIntegrationSettingBySystem(tanais.IntegrationCore.IIntegratedSystem integratedSystem)
+    public static tanais.IntegrationCore.IIntegrationSetting GetIntegrationSettingBySystem(tanais.IntegrationCore.IIntegratedSystem integratedSystem, string postfix)
     {
       if (integratedSystem == null)
         throw new Exception(tanais.IntegrationCore.IntegrationSettings.Resources.IntegratedSystemIsNoteFilled);
       
       var integrationSetting = tanais.IntegrationCore.IntegrationSettings
-        .GetAll(s => s.IntegratedSystem.Id == integratedSystem.Id)
+        .GetAll()
+        .Where(s => s.IntegratedSystem.Id == integratedSystem.Id)
+        .Where(s => string.IsNullOrEmpty(postfix) || s.Postfix == postfix)
         .FirstOrDefault();
       
       if (integrationSetting == null)
-        throw new Exception(tanais.IntegrationCore.IntegrationSettings.Resources.IntegrationSettingNotFound);
+        throw new Exception(tanais.IntegrationCore.IntegrationSettings.Resources.IntegrationSettingNotFoundFormat(integratedSystem.Name));
       
       return integrationSetting;
     }

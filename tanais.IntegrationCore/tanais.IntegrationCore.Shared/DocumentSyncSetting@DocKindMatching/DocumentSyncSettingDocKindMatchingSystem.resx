@@ -58,31 +58,16 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="DisplayName" xml:space="preserve">
-    <value>Integration Settings</value>
+  <data name="Property_ExtKind" xml:space="preserve">
+    <value>Ext. document kind</value>
   </data>
-  <data name="CoverTitle" xml:space="preserve">
-    <value>Integration</value>
+  <data name="Property_ExtKindGuid" xml:space="preserve">
+    <value>Ext. document kind Guid</value>
   </data>
-  <data name="CoverDescription" xml:space="preserve">
-    <value>The module is designed to configure integration with an external system.</value>
+  <data name="Property_Kind" xml:space="preserve">
+    <value>Kind</value>
   </data>
-  <data name="CoverTab_Tab" xml:space="preserve">
-    <value>Tab</value>
-  </data>
-  <data name="CoverGroup_Settings" xml:space="preserve">
-    <value>Settings</value>
-  </data>
-  <data name="CoverAction_IntegratedSystems" xml:space="preserve">
-    <value>Integrated systems</value>
-  </data>
-  <data name="CoverDescription_IntegratedSystems" xml:space="preserve">
-    <value>The reference contains information on external systems with which the Directum RX system is integrated.</value>
-  </data>
-  <data name="CoverAction_IntegrationSetting" xml:space="preserve">
-    <value>Integration settings</value>
-  </data>
-  <data name="CoverDescription_IntegrationSetting" xml:space="preserve">
-    <value>The reference book is intended for setting up integration with an external system.</value>
+  <data name="Property_KindGuid" xml:space="preserve">
+    <value>Kind Guid</value>
   </data>
 </root>

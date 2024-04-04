@@ -11,25 +11,34 @@ namespace tanais.IntegrationCore.Client
   {
     public virtual void SpecifyKey(Sungero.Domain.Client.ExecuteActionArgs e)
     {
-      var inputDialog = Dialogs.CreateInputDialog(tanais.IntegrationCore.IntegrationSettings.Resources.SetKeyDialogTitle);
-      var keyDialogField = inputDialog.AddPasswordString(tanais.IntegrationCore.IntegrationSettings.Resources.EnterKeyFieldTitle, true);
-      var confirmKeyDialogField = inputDialog.AddPasswordString(tanais.IntegrationCore.IntegrationSettings.Resources.ConfirmKeyDialogFieldTitle, true);
+      var dialog = Dialogs.CreateInputDialog(tanais.IntegrationCore.IntegrationSettings.Resources.SetKeyDialog);
+      var key = dialog.AddPasswordString(tanais.IntegrationCore.IntegrationSettings.Resources.SetKeyDialogEnterKey, true);
+      key.MaxLength(_obj.Info.Properties.AccessKey.Length);
+      var confirmKey = dialog.AddPasswordString(tanais.IntegrationCore.IntegrationSettings.Resources.SetKeyDialogConfirmKey, true);
+      confirmKey.MaxLength(_obj.Info.Properties.AccessKey.Length);
       
-      inputDialog.SetOnButtonClick((ed) =>
-                                   {
-                                     if (ed.Button == DialogButtons.Ok)
-                                     {
-                                       if (String.Compare(keyDialogField.Value, confirmKeyDialogField.Value, StringComparison.Ordinal) == 0)
-                                       {
-                                         _obj.AccessKey = keyDialogField.Value;
-                                         _obj.VisibleAccessKey = new String('*', Constants.IntegrationSetting.NumberOfHidingCharacters);
-                                       }
-                                       else
-                                         e.AddError(tanais.IntegrationCore.IntegrationSettings.Resources.NotEqualsKeyMessage);
-                                     }
-                                   });
+      dialog.Buttons.AddOkCancel();
+      dialog.Buttons.Default = DialogButtons.Ok;
       
-      inputDialog.Show();
+      dialog.SetOnRefresh(
+        x =>
+        {
+          x.AddError(tanais.IntegrationCore.IntegrationSettings.Resources.DontMatchKeys);
+        });
+      
+      dialog.SetOnButtonClick(
+        x =>
+        {
+          if (x.Button == DialogButtons.Ok && x.IsValid)
+          {
+            _obj.AccessKey = key.Value;
+            _obj.VisibleAccessKey = new String('*', Constants.IntegrationSetting.NumberOfHidingCharacters);
+            
+            Dialogs.NotifyMessage(tanais.IntegrationCore.IntegrationSettings.Resources.SetKeyDialogComplete);
+          }
+        });
+      
+      dialog.Show();
     }
 
     public virtual bool CanSpecifyKey(Sungero.Domain.Client.CanExecuteActionArgs e)
@@ -39,22 +48,35 @@ namespace tanais.IntegrationCore.Client
 
     public virtual void SetPassword(Sungero.Domain.Client.ExecuteActionArgs e)
     {
-      var inputDialog = Dialogs.CreateInputDialog(tanais.IntegrationCore.IntegrationSettings.Resources.SetPasswordDialogTitle);
-      var passwordDialogField = inputDialog.AddPasswordString(tanais.IntegrationCore.IntegrationSettings.Resources.EnterPasswordFieldTitle, true);
-      var confirmPasswordDialogField = inputDialog.AddPasswordString(tanais.IntegrationCore.IntegrationSettings.Resources.ConfirmPasswordFieldTitle, true);
+      var dialog = Dialogs.CreateInputDialog(tanais.IntegrationCore.IntegrationSettings.Resources.SetPasswordDialog);
+      var password = dialog.AddPasswordString(tanais.IntegrationCore.IntegrationSettings.Resources.SetPasswordDialogEnterPassword, true);
+      password.MaxLength(_obj.Info.Properties.Password.Length);
+      var confirmPassword = dialog.AddPasswordString(tanais.IntegrationCore.IntegrationSettings.Resources.SetPasswordDialogConfirmPassword, true);
+      confirmPassword.MaxLength(_obj.Info.Properties.Password.Length);
       
-      inputDialog.SetOnButtonClick((ed) =>
-                                   {
-                                     if (String.Compare(passwordDialogField.Value, confirmPasswordDialogField.Value, StringComparison.Ordinal) == 0)
-                                     {
-                                       _obj.Password = passwordDialogField.Value;
-                                       _obj.VisiblePassword = new String('*', Constants.IntegrationSetting.NumberOfHidingCharacters);
-                                     }
-                                     else
-                                       e.AddError(tanais.IntegrationCore.IntegrationSettings.Resources.NotEqualsPasswordMessage);
-                                   });
+      dialog.Buttons.AddOkCancel();
+      dialog.Buttons.Default = DialogButtons.Ok;
       
-      inputDialog.Show();
+      dialog.SetOnRefresh(
+        x =>
+        {
+          if (String.Compare(password.Value, confirmPassword.Value, StringComparison.Ordinal) != 0)
+            x.AddError(tanais.IntegrationCore.IntegrationSettings.Resources.DontMatchPasswords);
+        });
+      
+      dialog.SetOnButtonClick(
+        x =>
+        {
+          if (x.Button == DialogButtons.Ok && x.IsValid)
+          {
+            _obj.Password = password.Value;
+            _obj.VisiblePassword = new String('*', Constants.IntegrationSetting.NumberOfHidingCharacters);
+            
+            Dialogs.NotifyMessage(tanais.IntegrationCore.IntegrationSettings.Resources.SetPasswordDialogComplete);
+          }
+        });
+      
+      dialog.Show();
     }
 
     public virtual bool CanSetPassword(Sungero.Domain.Client.CanExecuteActionArgs e)

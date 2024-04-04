@@ -1,0 +1,174 @@
+{
+  "$type": "Sungero.DataExport.ExportingObject, Sungero.DataExport",
+  "Cover": {
+    "$type": "Sungero.NoCode.Settings.Interfaces.Models.Cover.CoverSettings, Sungero.NoCode.Settings.Interfaces",
+    "NameGuid": "f53da168-2afd-481b-bf9b-bf56c61ae689",
+    "Header": {
+      "$type": "Sungero.NoCode.Settings.Interfaces.Models.Cover.CoverHeaderSettings, Sungero.NoCode.Settings.Interfaces",
+      "NameGuid": "460bacf4-34ae-4fe7-ab0b-929f272652f5",
+      "Name": null,
+      "IconName": null,
+      "Background": null,
+      "BackgroundPosition": 1
+    },
+    "Footer": {
+      "$type": "Sungero.NoCode.Settings.Interfaces.Models.Cover.CoverFooterSettings, Sungero.NoCode.Settings.Interfaces",
+      "NameGuid": "0b322292-d5ef-4e4d-aaaf-297533274706",
+      "Name": null,
+      "IconName": null,
+      "Background": null,
+      "BackgroundPosition": 1
+    },
+    "Tabs": {
+      "$type": "System.Collections.Generic.List`1[[Sungero.NoCode.Settings.Interfaces.Models.Cover.CoverTabSettings, Sungero.NoCode.Settings.Interfaces]], System.Private.CoreLib",
+      "$values": [
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.Cover.CoverTabSettings, Sungero.NoCode.Settings.Interfaces",
+          "TabId": "4974aa10-647d-4ab2-9665-78ff4d51ae3a",
+          "NameGuid": "4974aa10-647d-4ab2-9665-78ff4d51ae3a",
+          "Name": "Tab",
+          "Index": 0,
+          "ParentId": "00000000-0000-0000-0000-000000000000"
+        }
+      ]
+    },
+    "Groups": {
+      "$type": "System.Collections.Generic.List`1[[Sungero.NoCode.Settings.Interfaces.Models.Cover.CoverGroupSettings, Sungero.NoCode.Settings.Interfaces]], System.Private.CoreLib",
+      "$values": [
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.Cover.CoverGroupSettings, Sungero.NoCode.Settings.Interfaces",
+          "GroupId": "a420243c-0123-4d48-bfbb-8f3383d2143d",
+          "ColumnNumber": 0,
+          "IconName": "1b7a8eb8-e551-4eb0-baa3-8e0c9cd5450e.svg",
+          "NameGuid": "a420243c-0123-4d48-bfbb-8f3383d2143d",
+          "Name": "Group",
+          "Index": 0,
+          "ParentId": "4974aa10-647d-4ab2-9665-78ff4d51ae3a"
+        }
+      ]
+    },
+    "Actions": {
+      "$type": "System.Collections.Generic.List`1[[Sungero.NoCode.Settings.Interfaces.Models.Cover.CoverActionSettingsBase, Sungero.NoCode.Settings.Interfaces]], System.Private.CoreLib",
+      "$values": [
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.Cover.CoverEntityListActionSettings, Sungero.NoCode.Settings.Interfaces",
+          "EntityTypeId": "7db7fde0-5e2c-42b8-953c-003ed10d57df",
+          "ActionId": "e630d078-88ee-4515-8182-fca5593532f8",
+          "NameGuid": "e630d078-88ee-4515-8182-fca5593532f8",
+          "Name": "Action",
+          "Index": 0,
+          "ParentId": "a420243c-0123-4d48-bfbb-8f3383d2143d"
+        },
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.Cover.CoverEntityListActionSettings, Sungero.NoCode.Settings.Interfaces",
+          "EntityTypeId": "44528f5e-8f75-4ac7-a3cb-644fce085842",
+          "ActionId": "769e0a5f-1fe1-4308-ad48-0cdb6f022122",
+          "NameGuid": "769e0a5f-1fe1-4308-ad48-0cdb6f022122",
+          "Name": "Action",
+          "Index": 1,
+          "ParentId": "a420243c-0123-4d48-bfbb-8f3383d2143d"
+        },
+        {
+          "$type": "Sungero.NoCode.Settings.Interfaces.Models.Cover.CoverEntityListActionSettings, Sungero.NoCode.Settings.Interfaces",
+          "EntityTypeId": "4be355b7-3069-4213-8f83-700e2d26c481",
+          "ActionId": "92473bc8-b575-4a9b-a8db-0f21e4c693f5",
+          "NameGuid": "92473bc8-b575-4a9b-a8db-0f21e4c693f5",
+          "Name": "Action",
+          "Index": 2,
+          "ParentId": "a420243c-0123-4d48-bfbb-8f3383d2143d"
+        }
+      ]
+    },
+    "RemoteControls": {
+      "$type": "System.Collections.Generic.List`1[[Sungero.NoCode.Settings.Interfaces.Models.Cover.CoverRemoteControlSettings, Sungero.NoCode.Settings.Interfaces]], System.Private.CoreLib",
+      "$values": []
+    },
+    "Background": null,
+    "BackgroundPosition": 0
+  },
+  "Description": null,
+  "Priority": 1,
+  "ExplorerModule": {
+    "$type": "Sungero.DataExport.ExportingObjectId, Sungero.DataExport",
+    "TypeGuid": "4cbdfb03-5462-43c4-a033-034e3d3aa095",
+    "Identifier": "0b277cc2-aec6-4985-ae5b-e7f24e0d5c9f"
+  },
+  "Items": {
+    "$type": "Sungero.DataExport.ExportingObject[], Sungero.DataExport",
+    "$values": [
+      {
+        "$type": "Sungero.DataExport.ExportingObject, Sungero.DataExport",
+        "Uuid": "4758f4f1-bbfc-420d-8584-e99e80293dd8",
+        "ModuleView": {
+          "$type": "Sungero.DataExport.ExportingObjectId, Sungero.DataExport",
+          "TypeGuid": "f7cba906-f4c9-4f02-97e8-a6c6155a8ee6",
+          "Identifier": "bcf41b4a-97b0-472b-b493-31f17945adf7"
+        },
+        "Number": 2,
+        "ItemType": "EntityType",
+        "NameGuid": "44528f5e-8f75-4ac7-a3cb-644fce085842"
+      },
+      {
+        "$type": "Sungero.DataExport.ExportingObject, Sungero.DataExport",
+        "Uuid": "63c86b9f-bb02-4982-b9fe-3516e657ebfc",
+        "ModuleView": {
+          "$type": "Sungero.DataExport.ExportingObjectId, Sungero.DataExport",
+          "TypeGuid": "f7cba906-f4c9-4f02-97e8-a6c6155a8ee6",
+          "Identifier": "bcf41b4a-97b0-472b-b493-31f17945adf7"
+        },
+        "Number": 3,
+        "ItemType": "EntityType",
+        "NameGuid": "4be355b7-3069-4213-8f83-700e2d26c481"
+      },
+      {
+        "$type": "Sungero.DataExport.ExportingObject, Sungero.DataExport",
+        "Uuid": "330e31c4-e1bc-406b-97c7-4796797b93a4",
+        "ModuleView": {
+          "$type": "Sungero.DataExport.ExportingObjectId, Sungero.DataExport",
+          "TypeGuid": "f7cba906-f4c9-4f02-97e8-a6c6155a8ee6",
+          "Identifier": "bcf41b4a-97b0-472b-b493-31f17945adf7"
+        },
+        "Number": 1,
+        "ItemType": "EntityType",
+        "NameGuid": "7db7fde0-5e2c-42b8-953c-003ed10d57df"
+      }
+    ]
+  },
+  "Recipients": {
+    "$type": "Sungero.DataExport.ExportingObject[], Sungero.DataExport",
+    "$values": [
+      {
+        "$type": "Sungero.DataExport.ExportingObject, Sungero.DataExport",
+        "Uuid": "e567aaea-4c08-46be-b41e-f49c72d4620c",
+        "ModuleView": {
+          "$type": "Sungero.DataExport.ExportingObjectId, Sungero.DataExport",
+          "TypeGuid": "f7cba906-f4c9-4f02-97e8-a6c6155a8ee6",
+          "Identifier": "bcf41b4a-97b0-472b-b493-31f17945adf7"
+        },
+        "Recipient": {
+          "$type": "Sungero.DataExport.ExportingObjectId, Sungero.DataExport",
+          "TypeGuid": "5e9b55c2-c1f5-4e4f-aa09-7b6d461d87ed",
+          "Identifier": "e434781a-976d-48fa-9d72-805a9e9bd48f"
+        }
+      },
+      {
+        "$type": "Sungero.DataExport.ExportingObject, Sungero.DataExport",
+        "Uuid": "5b8739d2-8c2f-43b2-b600-1327ad5013c9",
+        "ModuleView": {
+          "$type": "Sungero.DataExport.ExportingObjectId, Sungero.DataExport",
+          "TypeGuid": "f7cba906-f4c9-4f02-97e8-a6c6155a8ee6",
+          "Identifier": "bcf41b4a-97b0-472b-b493-31f17945adf7"
+        },
+        "Recipient": {
+          "$type": "Sungero.DataExport.ExportingObjectId, Sungero.DataExport",
+          "TypeGuid": "5e9b55c2-c1f5-4e4f-aa09-7b6d461d87ed",
+          "Identifier": "8ddf12da-a8d1-48e2-8b3a-093f42e0793b"
+        }
+      }
+    ]
+  },
+  "Uuid": "bcf41b4a-97b0-472b-b493-31f17945adf7",
+  "ModuleNameGuid": "ae05aff2-75d4-416d-9253-45bbf3bb148d",
+  "StoreAsDefaultSetting": true,
+  "Status": "Active"
+}

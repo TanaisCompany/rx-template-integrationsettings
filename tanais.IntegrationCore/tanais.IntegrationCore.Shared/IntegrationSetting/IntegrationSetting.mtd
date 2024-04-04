@@ -259,7 +259,7 @@
   ],
   "HandledEvents": [
     "BeforeSaveServer",
-    "ShowingClient"
+    "RefreshClient"
   ],
   "IconResourcesKeys": [],
   "IntegrationServiceName": "IntegrationCoreIntegrationSetting",
@@ -329,7 +329,9 @@
       "Name": "Address",
       "CanBeSearch": false,
       "Code": "Address",
-      "IsRequired": true,
+      "HandledEvents": [
+        "ValueInputClient"
+      ],
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
       "PreviousPropertyGuid": "a4982b20-9997-4c27-a5c7-d9b61dc0f25e"
     },
@@ -339,6 +341,7 @@
       "Name": "Login",
       "CanBeSearch": false,
       "Code": "Login",
+      "Length": 100,
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
       "PreviousPropertyGuid": "a99bc15d-a5e6-4c9f-9942-e86b0d789edf"
     },
@@ -348,6 +351,7 @@
       "Name": "Password",
       "CanBeSearch": false,
       "Code": "Password",
+      "IsEnabled": false,
       "IsShowedInList": false,
       "IsVisibility": false,
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
@@ -359,7 +363,7 @@
       "Name": "Note",
       "Code": "Note",
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToTextBinder",
-      "PreviousPropertyGuid": "4c2c611a-1a14-4028-b5f9-7a8e417e65c9"
+      "PreviousPropertyGuid": "b3232b01-851d-4cd8-8edb-6e21c1868c8c"
     },
     {
       "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
@@ -373,7 +377,7 @@
       "IsEnabled": false,
       "IsShowedInList": false,
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
-      "PreviousPropertyGuid": "bfd9c2ee-f5dd-4c9c-9097-96553d78e328"
+      "PreviousPropertyGuid": "4c2c611a-1a14-4028-b5f9-7a8e417e65c9"
     },
     {
       "$type": "Sungero.Metadata.StringPropertyMetadata, Sungero.Metadata",
@@ -385,7 +389,7 @@
       "IsShowedInList": false,
       "IsVisibility": false,
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
-      "PreviousPropertyGuid": "b3232b01-851d-4cd8-8edb-6e21c1868c8c"
+      "PreviousPropertyGuid": "bfd9c2ee-f5dd-4c9c-9097-96553d78e328"
     },
     {
       "$type": "Sungero.Metadata.EnumPropertyMetadata, Sungero.Metadata",
@@ -406,9 +410,8 @@
         }
       ],
       "HandledEvents": [
-        "ChangedShared"
+        "ValueInputClient"
       ],
-      "IsRequired": true,
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.DropDownEditorToEnumerationBinder",
       "PreviousPropertyGuid": "1941453a-372a-43cf-8831-811e088db963"
     },
@@ -447,20 +450,23 @@
   ],
   "PublicStructures": [],
   "ResourcesKeys": [
-    "SetPasswordWarningMessage",
-    "SetPasswordDialogTitle",
-    "EnterPasswordFieldTitle",
-    "ConfirmPasswordFieldTitle",
-    "NotEqualsPasswordMessage",
-    "SetKeyDialogTitle",
-    "EnterKeyFieldTitle",
-    "ConfirmKeyDialogFieldTitle",
-    "NotEqualsKeyMessage",
-    "IntegratedSystemIsNoteFilled",
+    "SetPasswordWarning",
+    "SetPasswordDialog",
+    "SetPasswordDialogEnterPassword",
+    "SetPasswordDialogConfirmPassword",
+    "DontMatchPasswords",
+    "SetKeyDialog",
+    "SetKeyDialogEnterKey",
+    "SetKeyDialogConfirmKey",
+    "DontMatchKeys",
+    "IntegratedSystemIsNotSpecified",
     "IntegrationSettingNotFound",
-    "UniqueValueWarningMessage",
-    "RecordNameTemplateWithBusinessUnit",
-    "RecordNameTemplate"
+    "ValidationUniqueValueWarning",
+    "NamePrefix",
+    "NamePartWithIntegratedSystem",
+    "NamePartForBusinessUnit",
+    "SetPasswordDialogComplete",
+    "SetKeyDialogComplete"
   ],
   "RibbonCardMetadata": {
     "NameGuid": "5b3d15af-ddf8-4398-91fa-b72ae5cf2823",

@@ -10,6 +10,11 @@ namespace tanais.IntegrationCore.Server
   public partial class ModuleInitializer
   {
 
+    public override bool IsModuleVisible()
+    {
+      return true;
+    }
+
     public override void Initializing(Sungero.Domain.ModuleInitializingEventArgs e)
     {
       CreateRoles();
@@ -25,14 +30,14 @@ namespace tanais.IntegrationCore.Server
     {
       // Ответственные за интеграцию.
       Sungero.Docflow.PublicInitializationFunctions.Module.CreateRole(
-        tanais.IntegrationCore.Resources.IntegrationResponsible,
-        tanais.IntegrationCore.Resources.IntegrationResponsible,
+        tanais.IntegrationCore.Resources.RoleNameIntegrationResponsible,
+        tanais.IntegrationCore.Resources.RoleNameIntegrationResponsible,
         Constants.Module.RoleGuid.IntegrationResponsibleRole);
       
       // Пользователи с доступом к настройкам интеграции.
       Sungero.Docflow.PublicInitializationFunctions.Module.CreateRole(
-        tanais.IntegrationCore.Resources.ReadIntegrationSettingRoleName,
-        tanais.IntegrationCore.Resources.ReadIntegrationSettingRoleName,
+        tanais.IntegrationCore.Resources.RoleNameUsersWithAccessToIntegrationSettings,
+        tanais.IntegrationCore.Resources.RoleNameUsersWithAccessToIntegrationSettings,
         Constants.Module.RoleGuid.ReadIntegrationSettingRole);
     }
     
@@ -69,6 +74,9 @@ namespace tanais.IntegrationCore.Server
     /// <summary>
     /// Выдача прав доступа.
     /// </summary>
+    /// <param name="role">Субъект прав.</param>
+    /// <param name="accessRights">Права доступа репозитория сущности.</param>
+    /// <param name="accessRightsTypes">Список типов прав.</param>
     [Public]
     private static void GrantRightsOnEntityType(IRole role, Sungero.Domain.Shared.IEntityAccessRights accessRights, params Guid[] accessRightsTypes)
     {

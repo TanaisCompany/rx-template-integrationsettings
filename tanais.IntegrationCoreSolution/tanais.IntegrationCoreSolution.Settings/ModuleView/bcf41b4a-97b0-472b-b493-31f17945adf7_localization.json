@@ -1,0 +1,51 @@
+{
+  "$type": "Sungero.NoCode.Settings.Models.SettingsLayerLocalization, Sungero.NoCode.Settings.Interfaces",
+  "_Title_460bacf434ae4fe7ab0b929f272652f5": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+    "default": "Integration Settings",
+    "ru-RU": "Настройки интеграции"
+  },
+  "_Description_460bacf434ae4fe7ab0b929f272652f5": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+    "default": "The module is designed to customize integration with external systems.",
+    "ru-RU": "Модуль предназначен для настройки интеграции с внешними системами."
+  },
+  "Tab_Title_4974aa10647d4ab2966578ff4d51ae3a": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+    "default": "Tab"
+  },
+  "Group_Title_a420243c01234d48bfbb8f3383d2143d": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+    "default": "Настройки"
+  },
+  "Action_Title_e630d07888ee45158182fca5593532f8": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+    "default": "Integrated Systems",
+    "ru-RU": "Интегрированные системы"
+  },
+  "Action_Description_e630d07888ee45158182fca5593532f8": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+    "default": "List of integrated systems",
+    "ru-RU": "Список интегрированных систем"
+  },
+  "Action_Title_769e0a5f1fe14308ad480cdb6f022122": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+    "default": "Integration settings",
+    "ru-RU": "Настройки интеграции"
+  },
+  "Action_Description_769e0a5f1fe14308ad480cdb6f022122": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+    "default": "List of integrated system settings",
+    "ru-RU": "Список настроек интегрированных систем"
+  },
+  "Action_Title_92473bc8b5754a9ba8db0f21e4c693f5": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+    "default": "Document synchronization settings",
+    "ru-RU": "Настройки синхронизации документов"
+  },
+  "Action_Description_92473bc8b5754a9ba8db0f21e4c693f5": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+    "default": "List of matching properties of document types",
+    "ru-RU": "Список соответствия свойств типов документов"
+  }
+}

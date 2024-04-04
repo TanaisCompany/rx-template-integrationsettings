@@ -20,7 +20,7 @@ namespace tanais.IntegrationCore.Server
     public static tanais.IntegrationCore.IIntegrationSetting GetIntegrationSettingBySystem(tanais.IntegrationCore.IIntegratedSystem integratedSystem, string postfix)
     {
       if (integratedSystem == null)
-        throw new Exception(tanais.IntegrationCore.IntegrationSettings.Resources.IntegratedSystemIsNoteFilled);
+        throw new Exception(tanais.IntegrationCore.IntegrationSettings.Resources.IntegratedSystemIsNotSpecified);
       
       var integrationSetting = tanais.IntegrationCore.IntegrationSettings
         .GetAll()

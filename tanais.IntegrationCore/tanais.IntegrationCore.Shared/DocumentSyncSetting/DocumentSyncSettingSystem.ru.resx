@@ -58,31 +58,49 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Property_Name" xml:space="preserve">
+    <value>Имя</value>
+  </data>
   <data name="DisplayName" xml:space="preserve">
-    <value>Integration Settings</value>
+    <value>Настройки синхронизации документов</value>
   </data>
-  <data name="CoverTitle" xml:space="preserve">
-    <value>Integration</value>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Настройки синхронизации документов</value>
   </data>
-  <data name="CoverDescription" xml:space="preserve">
-    <value>The module is designed to configure integration with an external system.</value>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Настройки синхронизации документов</value>
   </data>
-  <data name="CoverTab_Tab" xml:space="preserve">
-    <value>Tab</value>
+  <data name="Property_IntegratedSystem" xml:space="preserve">
+    <value>Интегрированная система</value>
   </data>
-  <data name="CoverGroup_Settings" xml:space="preserve">
-    <value>Settings</value>
+  <data name="Property_ExtDocumentType" xml:space="preserve">
+    <value>Тип документа ИС</value>
   </data>
-  <data name="CoverAction_IntegratedSystems" xml:space="preserve">
-    <value>Integrated systems</value>
+  <data name="Property_ExtDocumentTypeGuid" xml:space="preserve">
+    <value>ИД типа документа ИС</value>
   </data>
-  <data name="CoverDescription_IntegratedSystems" xml:space="preserve">
-    <value>The reference contains information on external systems with which the Directum RX system is integrated.</value>
+  <data name="Property_DocumentType" xml:space="preserve">
+    <value>Тип документа</value>
   </data>
-  <data name="CoverAction_IntegrationSetting" xml:space="preserve">
-    <value>Integration settings</value>
+  <data name="Property_DocumentTypeGuid" xml:space="preserve">
+    <value>ИД типа документа</value>
   </data>
-  <data name="CoverDescription_IntegrationSetting" xml:space="preserve">
-    <value>The reference book is intended for setting up integration with an external system.</value>
+  <data name="Property_Description" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="ControlGroup_4fa40103bd3f41739c380a004031f2c6" xml:space="preserve">
+    <value>Соответствие типов документов</value>
+  </data>
+  <data name="Property_DocKindMatching" xml:space="preserve">
+    <value>Соответствие видов документов</value>
+  </data>
+  <data name="ControlGroup_b4a4aca0980449ddbfc8aed6ad48bc38" xml:space="preserve">
+    <value>Описание</value>
+  </data>
+  <data name="Form_97e2e38c6da04796bc5da3443cc66f08" xml:space="preserve">
+    <value>Виды документов</value>
+  </data>
+  <data name="ControlGroup_746fb1b755e44860ba4c5c625d134da3" xml:space="preserve">
+    <value>Соответствие видов документов</value>
   </data>
 </root>

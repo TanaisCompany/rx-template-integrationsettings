@@ -17,7 +17,7 @@ namespace tanais.IntegrationCore
         .Any();
       
       if (isDouble)
-        e.AddError(tanais.IntegrationCore.IntegrationSettings.Resources.UniqueValueWarningMessage);
+        e.AddError(tanais.IntegrationCore.IntegrationSettings.Resources.ValidationUniqueValueWarning);
     }
   }
 

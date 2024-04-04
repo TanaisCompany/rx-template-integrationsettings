@@ -58,46 +58,55 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="SetPasswordWarningMessage" xml:space="preserve">
+  <data name="SetPasswordWarning" xml:space="preserve">
     <value>To change your password, use the Set Password button</value>
   </data>
-  <data name="SetPasswordDialogTitle" xml:space="preserve">
+  <data name="SetPasswordDialog" xml:space="preserve">
     <value>Set password</value>
   </data>
-  <data name="EnterPasswordFieldTitle" xml:space="preserve">
+  <data name="SetPasswordDialogEnterPassword" xml:space="preserve">
     <value>Enter password</value>
   </data>
-  <data name="ConfirmPasswordFieldTitle" xml:space="preserve">
+  <data name="SetPasswordDialogConfirmPassword" xml:space="preserve">
     <value>Confirm password</value>
   </data>
-  <data name="NotEqualsPasswordMessage" xml:space="preserve">
+  <data name="DontMatchPasswords" xml:space="preserve">
     <value>Passwords don't match, please try again.</value>
   </data>
-  <data name="SetKeyDialogTitle" xml:space="preserve">
-    <value>Specify a key</value>
+  <data name="SetKeyDialog" xml:space="preserve">
+    <value>Specify key</value>
   </data>
-  <data name="EnterKeyFieldTitle" xml:space="preserve">
+  <data name="SetKeyDialogEnterKey" xml:space="preserve">
     <value>Enter key</value>
   </data>
-  <data name="ConfirmKeyDialogFieldTitle" xml:space="preserve">
+  <data name="SetKeyDialogConfirmKey" xml:space="preserve">
     <value>Confirm the key</value>
   </data>
-  <data name="NotEqualsKeyMessage" xml:space="preserve">
+  <data name="DontMatchKeys" xml:space="preserve">
     <value>Keys don't match, please try again.</value>
   </data>
-  <data name="IntegratedSystemIsNoteFilled" xml:space="preserve">
+  <data name="IntegratedSystemIsNotSpecified" xml:space="preserve">
     <value>IntegrationCore. Integrated system not specified</value>
   </data>
   <data name="IntegrationSettingNotFound" xml:space="preserve">
     <value>IntegrationCore. Integration settings for system {0} not found</value>
   </data>
-  <data name="UniqueValueWarningMessage" xml:space="preserve">
+  <data name="ValidationUniqueValueWarning" xml:space="preserve">
     <value>Enter a unique postfix value and re-save the directory entry</value>
   </data>
-  <data name="RecordNameTemplateWithBusinessUnit" xml:space="preserve">
-    <value>Integration {0} for {1}</value>
+  <data name="NamePrefix" xml:space="preserve">
+    <value>Integration setting</value>
   </data>
-  <data name="RecordNameTemplate" xml:space="preserve">
-    <value>Integration {0}</value>
+  <data name="NamePartWithIntegratedSystem" xml:space="preserve">
+    <value> with {0}</value>
+  </data>
+  <data name="NamePartForBusinessUnit" xml:space="preserve">
+    <value> for {0}</value>
+  </data>
+  <data name="SetPasswordDialogComplete" xml:space="preserve">
+    <value>Password is set</value>
+  </data>
+  <data name="SetKeyDialogComplete" xml:space="preserve">
+    <value>Key is set</value>
   </data>
 </root>

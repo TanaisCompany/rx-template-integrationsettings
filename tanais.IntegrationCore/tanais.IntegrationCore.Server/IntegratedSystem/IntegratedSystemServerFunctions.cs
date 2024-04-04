@@ -19,7 +19,7 @@ namespace tanais.IntegrationCore.Server
     public static tanais.IntegrationCore.IIntegratedSystem GetIntegratedSystemByCode(string systemCode)
     {
       if (string.IsNullOrEmpty(systemCode))
-        throw new Exception(tanais.IntegrationCore.IntegratedSystems.Resources.SystemCodeIsNotFilled);
+        throw new Exception(tanais.IntegrationCore.IntegratedSystems.Resources.SystemCodeIsNotSpecified);
       
       var integratedSystem = tanais.IntegrationCore.IntegratedSystems
         .GetAll(s => s.Code.ToLower() == systemCode.ToLower())

@@ -1,0 +1,8 @@
+{
+  "$type": "Sungero.NoCode.Settings.Models.SettingsLayerLocalization, Sungero.NoCode.Settings.Interfaces",
+  "Name": {
+    "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+    "default": "Модуль: Настройки интеграции",
+    "ru-RU": "Модуль: Настройки интеграции"
+  }
+}

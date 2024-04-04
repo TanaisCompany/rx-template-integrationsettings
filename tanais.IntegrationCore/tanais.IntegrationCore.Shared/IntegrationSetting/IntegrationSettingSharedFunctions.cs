@@ -15,33 +15,43 @@ namespace tanais.IntegrationCore.Shared
     /// </summary>
     public virtual void SetStateProperties()
     {
-      // Если Способ авторизации = По ключу.
-      bool IsKey = _obj.AuthMethod == tanais.IntegrationCore.IntegrationSetting.AuthMethod.Key;
-      // Если Способ авторизации = По паролю.
-      bool IsPassword = _obj.AuthMethod == tanais.IntegrationCore.IntegrationSetting.AuthMethod.Password;
-
-      // «Ключ доступа».
-      _obj.State.Properties.VisibleAccessKey.IsVisible = IsKey;
-      _obj.State.Properties.VisibleAccessKey.IsRequired = IsKey;
+      var hasService = !string.IsNullOrWhiteSpace(_obj.Address);
       
-      // «Имя пользователя», «Пароль».
-      _obj.State.Properties.Login.IsVisible = IsPassword;
-      _obj.State.Properties.Login.IsRequired = IsPassword;
-      _obj.State.Properties.VisiblePassword.IsVisible = IsPassword;
-      _obj.State.Properties.VisiblePassword.IsRequired = IsPassword;
+      var isKey = hasService && _obj.AuthMethod == tanais.IntegrationCore.IntegrationSetting.AuthMethod.Key;
+      var isPassword = hasService && _obj.AuthMethod == tanais.IntegrationCore.IntegrationSetting.AuthMethod.Password;
+      
+      // Способ авторизации.
+      _obj.State.Properties.AuthMethod.IsVisible = hasService;
+      _obj.State.Properties.AuthMethod.IsRequired = hasService;
+      
+      // Ключ доступа.
+      _obj.State.Properties.VisibleAccessKey.IsVisible = isKey;
+      _obj.State.Properties.VisibleAccessKey.IsRequired = isKey;
+      
+      // Имя пользователя, Пароль.
+      _obj.State.Properties.Login.IsVisible = isPassword;
+      _obj.State.Properties.Login.IsRequired = isPassword;
+      _obj.State.Properties.VisiblePassword.IsVisible = isPassword;
+      _obj.State.Properties.VisiblePassword.IsRequired = isPassword;
     }
     
     /// <summary>
     /// Заполнить имя записи справочника.
     /// </summary>
-    public virtual void SetIntegrationSettingsName()
+    public virtual void FillName()
     {
-      string name = string.Empty;
+      var name = string.Empty;
       
-      if (_obj.BusinessUnit != null && _obj.IntegratedSystem != null)
-        name = tanais.IntegrationCore.IntegrationSettings.Resources.RecordNameTemplateWithBusinessUnitFormat(_obj.IntegratedSystem.Name, _obj.BusinessUnit.Name);
-      else if (_obj.IntegratedSystem != null)
-        name = tanais.IntegrationCore.IntegrationSettings.Resources.RecordNameTemplateFormat(_obj.IntegratedSystem.Name);
+      using (TenantInfo.Culture.SwitchTo())
+      {
+        name = tanais.IntegrationCore.IntegrationSettings.Resources.NamePrefix;
+        
+        if (_obj.IntegratedSystem != null)
+          name += tanais.IntegrationCore.IntegrationSettings.Resources.NamePartWithIntegratedSystemFormat(_obj.IntegratedSystem.Name);
+          
+        if (_obj.BusinessUnit != null)
+          name += tanais.IntegrationCore.IntegrationSettings.Resources.NamePartForBusinessUnitFormat(_obj.BusinessUnit.Name);
+      }
       
       _obj.Name = Sungero.Docflow.PublicFunctions.Module.TrimSpecialSymbols(name);
     }

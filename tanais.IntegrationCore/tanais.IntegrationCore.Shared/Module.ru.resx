@@ -58,10 +58,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="IntegrationResponsible" xml:space="preserve">
+  <data name="RoleNameIntegrationResponsible" xml:space="preserve">
     <value>Ответственные за интеграцию</value>
   </data>
-  <data name="ReadIntegrationSettingRoleName" xml:space="preserve">
+  <data name="RoleNameUsersWithAccessToIntegrationSettings" xml:space="preserve">
     <value>Пользователи с доступом к настройкам интеграции</value>
   </data>
 </root>

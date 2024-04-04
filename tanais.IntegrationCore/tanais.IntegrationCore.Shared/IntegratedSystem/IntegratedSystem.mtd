@@ -182,7 +182,7 @@
   ],
   "PublicStructures": [],
   "ResourcesKeys": [
-    "SystemCodeIsNotFilled",
+    "SystemCodeIsNotSpecified",
     "IntegratedSystemNotFound"
   ],
   "RibbonCardMetadata": {

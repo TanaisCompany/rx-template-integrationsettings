@@ -58,46 +58,56 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="SetPasswordWarningMessage" xml:space="preserve">
+  <data name="SetPasswordWarning" xml:space="preserve">
     <value>Для изменения пароля воспользуйтесь кнопкой Установить пароль</value>
   </data>
-  <data name="SetPasswordDialogTitle" xml:space="preserve">
-    <value>Установить пароль</value>
+  <data name="SetPasswordDialog" xml:space="preserve">
+    <value>Установите пароль</value>
   </data>
-  <data name="EnterPasswordFieldTitle" xml:space="preserve">
+  <data name="SetPasswordDialogEnterPassword" xml:space="preserve">
     <value>Введите пароль</value>
   </data>
-  <data name="ConfirmPasswordFieldTitle" xml:space="preserve">
+  <data name="SetPasswordDialogConfirmPassword" xml:space="preserve">
     <value>Подтвердите пароль</value>
   </data>
-  <data name="NotEqualsPasswordMessage" xml:space="preserve">
-    <value>Пароли не совпадают, попробуйте еще раз. </value>
+  <data name="DontMatchPasswords" xml:space="preserve">
+    <value>Пароли не совпадают, попробуйте еще раз.</value>
   </data>
-  <data name="SetKeyDialogTitle" xml:space="preserve">
-    <value>Указать ключ</value>
+  <data name="SetKeyDialog" xml:space="preserve">
+    <value>Укажите ключ</value>
   </data>
-  <data name="EnterKeyFieldTitle" xml:space="preserve">
+  <data name="SetKeyDialogEnterKey" xml:space="preserve">
     <value>Введите ключ</value>
   </data>
-  <data name="ConfirmKeyDialogFieldTitle" xml:space="preserve">
+  <data name="SetKeyDialogConfirmKey" xml:space="preserve">
     <value>Подтвердите ключ</value>
   </data>
-  <data name="NotEqualsKeyMessage" xml:space="preserve">
+  <data name="DontMatchKeys" xml:space="preserve">
     <value>Ключи не совпадают, попробуйте еще раз.</value>
   </data>
-  <data name="IntegratedSystemIsNoteFilled" xml:space="preserve">
+  <data name="IntegratedSystemIsNotSpecified" xml:space="preserve">
     <value>IntegrationCore. Integrated system not specified</value>
   </data>
   <data name="IntegrationSettingNotFound" xml:space="preserve">
     <value>IntegrationCore. Integration settings for system {0} not found</value>
   </data>
-  <data name="UniqueValueWarningMessage" xml:space="preserve">
+  <data name="ValidationUniqueValueWarning" xml:space="preserve">
     <value>Введите уникальное значение постфикса и повторно сохраните запись справочника</value>
   </data>
-  <data name="RecordNameTemplateWithBusinessUnit" xml:space="preserve">
-    <value>Интеграция {0} для {1}</value>
+  <data name="NamePrefix" xml:space="preserve">
+    <value>Настройка интеграции</value>
   </data>
-  <data name="RecordNameTemplate" xml:space="preserve">
-    <value>Интеграция {0}</value>
+  <data name="NamePartWithIntegratedSystem" xml:space="preserve">
+    <value> с {0}</value>
+  </data>
+  <data name="NamePartForBusinessUnit" xml:space="preserve">
+    <value> для {0}</value>
+  </data>
+  <data name="SetPasswordDialogComplete" xml:space="preserve">
+    <value>Пароль установлен</value>
+  </data>
+  <data name="SetKeyDialogComplete" xml:space="preserve">
+    <value>Ключ установлен
+</value>
   </data>
 </root>

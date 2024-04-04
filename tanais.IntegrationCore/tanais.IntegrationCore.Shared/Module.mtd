@@ -69,6 +69,10 @@
     {
       "ItemId": "44528f5e-8f75-4ac7-a3cb-644fce085842",
       "PreviousItemId": "7db7fde0-5e2c-42b8-953c-003ed10d57df"
+    },
+    {
+      "ItemId": "4be355b7-3069-4213-8f83-700e2d26c481",
+      "PreviousItemId": "44528f5e-8f75-4ac7-a3cb-644fce085842"
     }
   ],
   "HandledEvents": [
@@ -123,8 +127,8 @@
   "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
   "ResourceInterfaceNamespace": "tanais.IntegrationCore",
   "ResourcesKeys": [
-    "IntegrationResponsible",
-    "ReadIntegrationSettingRoleName"
+    "RoleNameIntegrationResponsible",
+    "RoleNameUsersWithAccessToIntegrationSettings"
   ],
   "ServerAssemblyName": "tanais.IntegrationCore.Server",
   "ServerNamespace": "tanais.IntegrationCore.Server",

@@ -436,6 +436,20 @@
           "Name": "integratedSystem",
           "ParameterType": "global::Tanais.IntegrationCore.IIntegratedSystem",
           "ParameterTypeFullName": "Tanais.IntegrationCore.IIntegratedSystem, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::Tanais.IntegrationCore.IIntegrationSetting",
+      "ReturnTypeFullName": "Tanais.IntegrationCore.IIntegrationSetting, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "GetIntegrationSettingBySystem",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "integratedSystem",
+          "ParameterType": "global::Tanais.IntegrationCore.IIntegratedSystem",
+          "ParameterTypeFullName": "Tanais.IntegrationCore.IIntegratedSystem, Sungero.Domain.Interfaces"
         },
         {
           "Name": "postfix",

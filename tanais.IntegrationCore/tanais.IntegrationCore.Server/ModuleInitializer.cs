@@ -5,7 +5,7 @@ using Sungero.Core;
 using Sungero.CoreEntities;
 using Sungero.Domain.Initialization;
 
-namespace tanais.IntegrationCore.Server
+namespace Tanais.IntegrationCore.Server
 {
   public partial class ModuleInitializer
   {
@@ -30,14 +30,14 @@ namespace tanais.IntegrationCore.Server
     {
       // Ответственные за интеграцию.
       Sungero.Docflow.PublicInitializationFunctions.Module.CreateRole(
-        tanais.IntegrationCore.Resources.RoleNameIntegrationResponsible,
-        tanais.IntegrationCore.Resources.RoleNameIntegrationResponsible,
+        Tanais.IntegrationCore.Resources.RoleNameIntegrationResponsible,
+        Tanais.IntegrationCore.Resources.RoleNameIntegrationResponsible,
         Constants.Module.RoleGuid.IntegrationResponsibleRole);
       
       // Пользователи с доступом к настройкам интеграции.
       Sungero.Docflow.PublicInitializationFunctions.Module.CreateRole(
-        tanais.IntegrationCore.Resources.RoleNameUsersWithAccessToIntegrationSettings,
-        tanais.IntegrationCore.Resources.RoleNameUsersWithAccessToIntegrationSettings,
+        Tanais.IntegrationCore.Resources.RoleNameUsersWithAccessToIntegrationSettings,
+        Tanais.IntegrationCore.Resources.RoleNameUsersWithAccessToIntegrationSettings,
         Constants.Module.RoleGuid.ReadIntegrationSettingRole);
     }
     

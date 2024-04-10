@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using Sungero.Core;
 using Sungero.CoreEntities;
-using tanais.IntegrationCore.IntegrationSetting;
+using Tanais.IntegrationCore.IntegrationSetting;
 
-namespace tanais.IntegrationCore.Client
+namespace Tanais.IntegrationCore.Client
 {
   partial class IntegrationSettingFunctions
   {

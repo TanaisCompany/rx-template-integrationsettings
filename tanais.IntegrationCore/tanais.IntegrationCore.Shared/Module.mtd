@@ -3,12 +3,12 @@
   "NameGuid": "d694ace5-9afa-4e7a-b89a-47da8792c613",
   "Name": "IntegrationCore",
   "AsyncHandlers": [],
-  "ClientAssemblyName": "tanais.IntegrationCore.Client",
-  "ClientBaseAssemblyName": "tanais.IntegrationCore.ClientBase",
-  "ClientBaseNamespace": "tanais.IntegrationCore.ClientBase",
-  "ClientNamespace": "tanais.IntegrationCore.Client",
+  "ClientAssemblyName": "Tanais.IntegrationCore.Client",
+  "ClientBaseAssemblyName": "Tanais.IntegrationCore.ClientBase",
+  "ClientBaseNamespace": "Tanais.IntegrationCore.ClientBase",
+  "ClientNamespace": "Tanais.IntegrationCore.Client",
   "Code": "Integr2",
-  "CompanyCode": "tanais",
+  "CompanyCode": "Tanais",
   "Cover": {
     "NameGuid": "c4bc0969-d07c-4f5e-82d1-2a85c85367d8",
     "Actions": [
@@ -96,9 +96,9 @@
     }
   ],
   "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
-  "InterfaceNamespace": "tanais.IntegrationCore",
-  "IsolatedAssemblyName": "tanais.IntegrationCore.Isolated",
-  "IsolatedNamespace": "tanais.IntegrationCore.Isolated",
+  "InterfaceNamespace": "Tanais.IntegrationCore",
+  "IsolatedAssemblyName": "Tanais.IntegrationCore.Isolated",
+  "IsolatedNamespace": "Tanais.IntegrationCore.Isolated",
   "IsVisible": false,
   "Overridden": [
     "IsVisible"
@@ -125,15 +125,15 @@
   ],
   "PublicStructures": [],
   "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
-  "ResourceInterfaceNamespace": "tanais.IntegrationCore",
+  "ResourceInterfaceNamespace": "Tanais.IntegrationCore",
   "ResourcesKeys": [
     "RoleNameIntegrationResponsible",
     "RoleNameUsersWithAccessToIntegrationSettings"
   ],
-  "ServerAssemblyName": "tanais.IntegrationCore.Server",
-  "ServerNamespace": "tanais.IntegrationCore.Server",
-  "SharedAssemblyName": "tanais.IntegrationCore.Shared",
-  "SharedNamespace": "tanais.IntegrationCore.Shared",
+  "ServerAssemblyName": "Tanais.IntegrationCore.Server",
+  "ServerNamespace": "Tanais.IntegrationCore.Server",
+  "SharedAssemblyName": "Tanais.IntegrationCore.Shared",
+  "SharedNamespace": "Tanais.IntegrationCore.Shared",
   "SpecialFolders": [],
   "Version": "0.0.1.0",
   "Widgets": [],

@@ -434,8 +434,8 @@
       "Parameters": [
         {
           "Name": "integratedSystem",
-          "ParameterType": "global::tanais.IntegrationCore.IIntegratedSystem",
-          "ParameterTypeFullName": "tanais.IntegrationCore.IIntegratedSystem, Sungero.Domain.Interfaces"
+          "ParameterType": "global::Tanais.IntegrationCore.IIntegratedSystem",
+          "ParameterTypeFullName": "Tanais.IntegrationCore.IIntegratedSystem, Sungero.Domain.Interfaces"
         },
         {
           "Name": "postfix",
@@ -444,8 +444,8 @@
         }
       ],
       "Placement": "Shared",
-      "ReturnType": "global::tanais.IntegrationCore.IIntegrationSetting",
-      "ReturnTypeFullName": "tanais.IntegrationCore.IIntegrationSetting, Sungero.Domain.Interfaces"
+      "ReturnType": "global::Tanais.IntegrationCore.IIntegrationSetting",
+      "ReturnTypeFullName": "Tanais.IntegrationCore.IIntegrationSetting, Sungero.Domain.Interfaces"
     }
   ],
   "PublicStructures": [],

@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using Sungero.Core;
 using Sungero.CoreEntities;
-using tanais.IntegrationCore.DocumentSyncSetting;
+using Tanais.IntegrationCore.DocumentSyncSetting;
 
-namespace tanais.IntegrationCore
+namespace Tanais.IntegrationCore
 {
   partial class DocumentSyncSettingDocKindMatchingSharedHandlers
   {
 
-    public virtual void DocKindMatchingKindChanged(tanais.IntegrationCore.Shared.DocumentSyncSettingDocKindMatchingKindChangedEventArgs e)
+    public virtual void DocKindMatchingKindChanged(Tanais.IntegrationCore.Shared.DocumentSyncSettingDocKindMatchingKindChangedEventArgs e)
     {
       _obj.KindGuid = e.NewValue?.Id;
     }
@@ -19,7 +19,7 @@ namespace tanais.IntegrationCore
   partial class DocumentSyncSettingSharedHandlers
   {
 
-    public virtual void DocumentTypeChanged(tanais.IntegrationCore.Shared.DocumentSyncSettingDocumentTypeChangedEventArgs e)
+    public virtual void DocumentTypeChanged(Tanais.IntegrationCore.Shared.DocumentSyncSettingDocumentTypeChangedEventArgs e)
     {
       _obj.DocumentTypeGuid = e.NewValue?.Id.ToString();
     }

@@ -319,6 +319,8 @@
       "Name": "Postfix",
       "CanBeSearch": false,
       "Code": "Postfix",
+      "IsShowedInList": false,
+      "IsVisibility": false,
       "Length": 10,
       "ListDataBinderTypeName": "Sungero.Presentation.CommonDataBinders.StringEditorToStringBinder",
       "PreviousPropertyGuid": "d21739c8-5631-4c3f-b498-dbe42dcf8f55"
@@ -434,8 +436,22 @@
       "Parameters": [
         {
           "Name": "integratedSystem",
-          "ParameterType": "global::tanais.IntegrationCore.IIntegratedSystem",
-          "ParameterTypeFullName": "tanais.IntegrationCore.IIntegratedSystem, Sungero.Domain.Interfaces"
+          "ParameterType": "global::Tanais.IntegrationCore.IIntegratedSystem",
+          "ParameterTypeFullName": "Tanais.IntegrationCore.IIntegratedSystem, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::Tanais.IntegrationCore.IIntegrationSetting",
+      "ReturnTypeFullName": "Tanais.IntegrationCore.IIntegrationSetting, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "GetIntegrationSettingBySystem",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "integratedSystem",
+          "ParameterType": "global::Tanais.IntegrationCore.IIntegratedSystem",
+          "ParameterTypeFullName": "Tanais.IntegrationCore.IIntegratedSystem, Sungero.Domain.Interfaces"
         },
         {
           "Name": "postfix",
@@ -444,8 +460,8 @@
         }
       ],
       "Placement": "Shared",
-      "ReturnType": "global::tanais.IntegrationCore.IIntegrationSetting",
-      "ReturnTypeFullName": "tanais.IntegrationCore.IIntegrationSetting, Sungero.Domain.Interfaces"
+      "ReturnType": "global::Tanais.IntegrationCore.IIntegrationSetting",
+      "ReturnTypeFullName": "Tanais.IntegrationCore.IIntegrationSetting, Sungero.Domain.Interfaces"
     }
   ],
   "PublicStructures": [],

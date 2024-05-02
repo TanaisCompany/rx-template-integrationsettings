@@ -40,7 +40,6 @@
 ### Установка для ознакомления
 1. Склонировать репозиторий rx-template-integrationsettings в папку.
 2. Указать в _ConfigSettings.xml DDS:
-   
    ```xml
    <block name="REPOSITORIES">
      <repository folderName="Base" solutionType="Base" url="" />
@@ -58,7 +57,6 @@
 1. Сделать fork репозитория rx-template-integrationsettings для своей учетной записи.
 2. Склонировать созданный в п. 1 репозиторий в папку.
 3. Указать в _ConfigSettings.xml DDS:
-   
    ``` xml
    <block name="REPOSITORIES">
      <repository folderName="Base" solutionType="Base" url="" />
@@ -70,10 +68,8 @@
 **B. Подключение на базовый слой.**
 
 Вариант не рекомендуется, так как при выходе версии шаблона разработки не гарантируется обратная совместимость.
-
 1. Склонировать репозиторий rx-template-integrationsettings в папку.
 2. Указать в _ConfigSettings.xml DDS:
-
    ``` xml
    <block name="REPOSITORIES">
      <repository folderName="Base" solutionType="Base" url="" />
@@ -87,7 +83,6 @@
 **C. Копирование репозитория в систему контроля версий.**
 
 Рекомендуемый вариант для проектов внедрения.
-
 1. В системе контроля версий с поддержкой git создать новый репозиторий.
 2. Склонировать репозиторий rx-template-integrationsettings в папку с ключом `--mirror`.
 3. Перейти в папку из п. 2.

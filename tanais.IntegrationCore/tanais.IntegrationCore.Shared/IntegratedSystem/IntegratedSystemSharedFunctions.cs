@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using Sungero.Core;
 using Sungero.CoreEntities;
-using tanais.IntegrationCore.IntegratedSystem;
+using Tanais.IntegrationCore.IntegratedSystem;
 
-namespace tanais.IntegrationCore.Shared
+namespace Tanais.IntegrationCore.Shared
 {
   partial class IntegratedSystemFunctions
   {

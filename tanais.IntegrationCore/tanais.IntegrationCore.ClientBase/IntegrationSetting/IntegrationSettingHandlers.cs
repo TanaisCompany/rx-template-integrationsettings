@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using Sungero.Core;
 using Sungero.CoreEntities;
-using tanais.IntegrationCore.IntegrationSetting;
+using Tanais.IntegrationCore.IntegrationSetting;
 
-namespace tanais.IntegrationCore
+namespace Tanais.IntegrationCore
 {
   partial class IntegrationSettingClientHandlers
   {
@@ -22,12 +22,12 @@ namespace tanais.IntegrationCore
 
     public override void Refresh(Sungero.Presentation.FormRefreshEventArgs e)
     {
-      tanais.IntegrationCore.Functions.IntegrationSetting.SetStateProperties(_obj);
+      Tanais.IntegrationCore.Functions.IntegrationSetting.SetStateProperties(_obj);
     }
 
     public virtual void VisiblePasswordValueInput(Sungero.Presentation.StringValueInputEventArgs e)
     {
-      e.AddWarning(tanais.IntegrationCore.IntegrationSettings.Resources.SetPasswordWarning);
+      e.AddWarning(Tanais.IntegrationCore.IntegrationSettings.Resources.SetPasswordWarning);
     }
 
   }

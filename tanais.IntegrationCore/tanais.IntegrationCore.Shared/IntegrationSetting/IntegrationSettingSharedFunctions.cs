@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using Sungero.Core;
 using Sungero.CoreEntities;
-using tanais.IntegrationCore.IntegrationSetting;
+using Tanais.IntegrationCore.IntegrationSetting;
 
-namespace tanais.IntegrationCore.Shared
+namespace Tanais.IntegrationCore.Shared
 {
   partial class IntegrationSettingFunctions
   {
@@ -17,8 +17,8 @@ namespace tanais.IntegrationCore.Shared
     {
       var hasService = !string.IsNullOrWhiteSpace(_obj.Address);
       
-      var isKey = hasService && _obj.AuthMethod == tanais.IntegrationCore.IntegrationSetting.AuthMethod.Key;
-      var isPassword = hasService && _obj.AuthMethod == tanais.IntegrationCore.IntegrationSetting.AuthMethod.Password;
+      var isKey = hasService && _obj.AuthMethod == Tanais.IntegrationCore.IntegrationSetting.AuthMethod.Key;
+      var isPassword = hasService && _obj.AuthMethod == Tanais.IntegrationCore.IntegrationSetting.AuthMethod.Password;
       
       // Способ авторизации.
       _obj.State.Properties.AuthMethod.IsVisible = hasService;
@@ -44,13 +44,13 @@ namespace tanais.IntegrationCore.Shared
       
       using (TenantInfo.Culture.SwitchTo())
       {
-        name = tanais.IntegrationCore.IntegrationSettings.Resources.NamePrefix;
+        name = Tanais.IntegrationCore.IntegrationSettings.Resources.NamePrefix;
         
         if (_obj.IntegratedSystem != null)
-          name += tanais.IntegrationCore.IntegrationSettings.Resources.NamePartWithIntegratedSystemFormat(_obj.IntegratedSystem.Name);
+          name += Tanais.IntegrationCore.IntegrationSettings.Resources.NamePartWithIntegratedSystemFormat(_obj.IntegratedSystem.Name);
           
         if (_obj.BusinessUnit != null)
-          name += tanais.IntegrationCore.IntegrationSettings.Resources.NamePartForBusinessUnitFormat(_obj.BusinessUnit.Name);
+          name += Tanais.IntegrationCore.IntegrationSettings.Resources.NamePartForBusinessUnitFormat(_obj.BusinessUnit.Name);
       }
       
       _obj.Name = Sungero.Docflow.PublicFunctions.Module.TrimSpecialSymbols(name);

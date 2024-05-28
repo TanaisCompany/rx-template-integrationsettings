@@ -4,7 +4,7 @@ using System.Linq;
 using Sungero.Core;
 using Sungero.CoreEntities;
 
-namespace tanais.IntegrationCoreSolution.Client
+namespace Tanais.IntegrationCoreSolution.Client
 {
   public class ModuleFunctions
   {

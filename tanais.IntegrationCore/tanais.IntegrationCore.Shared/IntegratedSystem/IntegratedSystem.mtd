@@ -176,8 +176,8 @@
         }
       ],
       "Placement": "Shared",
-      "ReturnType": "global::tanais.IntegrationCore.IIntegratedSystem",
-      "ReturnTypeFullName": "tanais.IntegrationCore.IIntegratedSystem, Sungero.Domain.Interfaces"
+      "ReturnType": "global::Tanais.IntegrationCore.IIntegratedSystem",
+      "ReturnTypeFullName": "Tanais.IntegrationCore.IIntegratedSystem, Sungero.Domain.Interfaces"
     }
   ],
   "PublicStructures": [],

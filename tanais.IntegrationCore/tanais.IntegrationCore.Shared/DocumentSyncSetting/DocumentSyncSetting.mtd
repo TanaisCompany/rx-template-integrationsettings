@@ -323,8 +323,52 @@
       "PreviousPropertyGuid": "a0002650-2a25-4fa6-9765-c255466975e4"
     }
   ],
+  "PublicFunctions": [
+    {
+      "Name": "GetDocumentSyncSetting",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "integratedSystem",
+          "ParameterType": "global::Tanais.IntegrationCore.IIntegratedSystem",
+          "ParameterTypeFullName": "Tanais.IntegrationCore.IIntegratedSystem, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "classTypeGuid",
+          "ParameterType": "global::System.Guid",
+          "ParameterTypeFullName": "System.Guid"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::Tanais.IntegrationCore.IDocumentSyncSetting",
+      "ReturnTypeFullName": "Tanais.IntegrationCore.IDocumentSyncSetting, Sungero.Domain.Interfaces"
+    },
+    {
+      "Name": "GetDocumentSyncSetting",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "integratedSystem",
+          "ParameterType": "global::Tanais.IntegrationCore.IIntegratedSystem",
+          "ParameterTypeFullName": "Tanais.IntegrationCore.IIntegratedSystem, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "extClassTypeGuid",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::Tanais.IntegrationCore.IDocumentSyncSetting",
+      "ReturnTypeFullName": "Tanais.IntegrationCore.IDocumentSyncSetting, Sungero.Domain.Interfaces"
+    }
+  ],
   "PublicStructures": [],
-  "ResourcesKeys": [],
+  "ResourcesKeys": [
+    "IntegratedSystemIsNotSpecified",
+    "DocumentSyncSettingNotFound",
+    "DocumentSyncSettingForExtTypeNotFound"
+  ],
   "RibbonCardMetadata": {
     "NameGuid": "e56753f0-5208-4eaa-85e7-13fbec1b806a",
     "Name": "RibbonCard",

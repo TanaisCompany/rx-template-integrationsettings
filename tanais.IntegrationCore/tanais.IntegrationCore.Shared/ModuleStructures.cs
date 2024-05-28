@@ -4,7 +4,7 @@ using System.Linq;
 using Sungero.Core;
 using Sungero.CoreEntities;
 
-namespace tanais.IntegrationCore.Structures.Module
+namespace Tanais.IntegrationCore.Structures.Module
 {
 
 }

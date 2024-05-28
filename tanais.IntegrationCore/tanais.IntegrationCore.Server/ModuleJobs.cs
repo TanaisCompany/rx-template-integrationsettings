@@ -4,7 +4,7 @@ using System.Linq;
 using Sungero.Core;
 using Sungero.CoreEntities;
 
-namespace tanais.IntegrationCore.Server
+namespace Tanais.IntegrationCore.Server
 {
   public class ModuleJobs
   {

@@ -5,6 +5,6 @@ using Sungero.Core;
 using Sungero.CoreEntities;
 using Sungero.Workflow;
 
-namespace tanais.IntegrationCore.Server.IntegrationCoreBlocks
+namespace Tanais.IntegrationCore.Server.IntegrationCoreBlocks
 {
 }

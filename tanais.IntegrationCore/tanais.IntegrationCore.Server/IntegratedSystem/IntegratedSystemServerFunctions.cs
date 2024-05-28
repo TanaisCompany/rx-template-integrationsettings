@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using Sungero.Core;
 using Sungero.CoreEntities;
-using tanais.IntegrationCore.IntegratedSystem;
+using Tanais.IntegrationCore.IntegratedSystem;
 
-namespace tanais.IntegrationCore.Server
+namespace Tanais.IntegrationCore.Server
 {
   partial class IntegratedSystemFunctions
   {
@@ -15,18 +15,19 @@ namespace tanais.IntegrationCore.Server
     /// </summary>
     /// <param name="systemCode">Код интегрированной системы.</param>
     /// <returns>Интегрированная система.</returns>
+    /// <remarks>Если система не найдена, будет создано исключение.</remarks>
     [Public, Remote]
-    public static tanais.IntegrationCore.IIntegratedSystem GetIntegratedSystemByCode(string systemCode)
+    public static Tanais.IntegrationCore.IIntegratedSystem GetIntegratedSystemByCode(string systemCode)
     {
       if (string.IsNullOrEmpty(systemCode))
-        throw new Exception(tanais.IntegrationCore.IntegratedSystems.Resources.SystemCodeIsNotSpecified);
+        throw new Exception(Tanais.IntegrationCore.IntegratedSystems.Resources.SystemCodeIsNotSpecified);
       
-      var integratedSystem = tanais.IntegrationCore.IntegratedSystems
+      var integratedSystem = Tanais.IntegrationCore.IntegratedSystems
         .GetAll(s => s.Code.ToLower() == systemCode.ToLower())
         .FirstOrDefault();
       
       if (integratedSystem == null)
-        throw new Exception(tanais.IntegrationCore.IntegratedSystems.Resources.IntegratedSystemNotFound);
+        throw new Exception(Tanais.IntegrationCore.IntegratedSystems.Resources.IntegratedSystemNotFound);
       
       return integratedSystem;
     }

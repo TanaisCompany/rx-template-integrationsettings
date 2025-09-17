@@ -6,7 +6,7 @@ using Sungero.CoreEntities;
 
 namespace Tanais.IntegrationCore.Shared
 {
-  public class ModuleFunctions
+  public partial class ModuleFunctions
   {
 
   }

@@ -6,7 +6,7 @@ using Sungero.CoreEntities;
 
 namespace Tanais.IntegrationCore.Server
 {
-  public class ModuleJobs
+  public partial class ModuleJobs
   {
 
   }

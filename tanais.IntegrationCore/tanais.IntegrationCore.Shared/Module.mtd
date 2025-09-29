@@ -79,7 +79,6 @@
     "InitializingServer",
     "VisibilityServer"
   ],
-  "IconResourcesKeys": [],
   "Importance": "Medium",
   "InitializationFunctions": [
     {
@@ -140,7 +139,7 @@
   "Versions": [
     {
       "Type": "ModuleMetadata",
-      "Number": 9
+      "Number": 11
     },
     {
       "Type": "DomainApi",

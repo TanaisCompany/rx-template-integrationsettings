@@ -6,7 +6,7 @@ using Sungero.CoreEntities;
 
 namespace Tanais.IntegrationCore.Server
 {
-  public class ModuleAsyncHandlers
+  public partial class ModuleAsyncHandlers
   {
 
   }

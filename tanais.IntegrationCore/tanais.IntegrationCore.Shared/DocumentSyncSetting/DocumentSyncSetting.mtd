@@ -237,6 +237,7 @@
   "FormViewUuid": "51e455d1-2d78-4822-98a6-8580c2d30d6c",
   "IconResourcesKeys": [],
   "IntegrationServiceName": "IntegrationCoreDocumentSyncSetting",
+  "ListViewUuid": "e4bd260f-5c51-49a1-82e1-a4c7d61ed3cc",
   "OperationsClass": "",
   "Properties": [
     {

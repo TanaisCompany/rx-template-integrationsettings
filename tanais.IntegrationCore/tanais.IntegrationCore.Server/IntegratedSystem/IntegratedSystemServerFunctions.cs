@@ -20,14 +20,14 @@ namespace Tanais.IntegrationCore.Server
     public static Tanais.IntegrationCore.IIntegratedSystem GetIntegratedSystemByCode(string systemCode)
     {
       if (string.IsNullOrEmpty(systemCode))
-        throw new Exception(Tanais.IntegrationCore.IntegratedSystems.Resources.SystemCodeIsNotSpecified);
+        throw AppliedCodeException.Create(Tanais.IntegrationCore.IntegratedSystems.Resources.SystemCodeIsNotSpecified);
       
       var integratedSystem = Tanais.IntegrationCore.IntegratedSystems
         .GetAll(s => s.Code.ToLower() == systemCode.ToLower())
         .FirstOrDefault();
       
       if (integratedSystem == null)
-        throw new Exception(Tanais.IntegrationCore.IntegratedSystems.Resources.IntegratedSystemNotFound);
+        throw AppliedCodeException.Create(Tanais.IntegrationCore.IntegratedSystems.Resources.IntegratedSystemNotFoundFormat(systemCode));
       
       return integratedSystem;
     }

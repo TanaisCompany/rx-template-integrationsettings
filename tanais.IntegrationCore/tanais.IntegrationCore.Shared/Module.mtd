@@ -73,6 +73,18 @@
     {
       "ItemId": "4be355b7-3069-4213-8f83-700e2d26c481",
       "PreviousItemId": "44528f5e-8f75-4ac7-a3cb-644fce085842"
+    },
+    {
+      "ItemId": "51720d93-afbd-4139-8f2d-fe8bcfdcf555",
+      "PreviousItemId": "4be355b7-3069-4213-8f83-700e2d26c481"
+    },
+    {
+      "ItemId": "3cb1ccb0-199f-4f71-9920-14e2a7f6ede9",
+      "PreviousItemId": "51720d93-afbd-4139-8f2d-fe8bcfdcf555"
+    },
+    {
+      "ItemId": "9a0e7430-5458-4baa-8e1e-764838eeff46",
+      "PreviousItemId": "3cb1ccb0-199f-4f71-9920-14e2a7f6ede9"
     }
   ],
   "HandledEvents": [
@@ -120,6 +132,27 @@
       ],
       "TypeName": "System.Guid",
       "Value": "new System.Guid(\"7ae3a651-7271-4261-854b-d56f522e532c\")"
+    }
+  ],
+  "PublicFunctions": [
+    {
+      "Name": "GetEntity",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "typeGuid",
+          "ParameterType": "global::System.String",
+          "ParameterTypeFullName": "System.String"
+        },
+        {
+          "Name": "id",
+          "ParameterType": "global::System.Int64",
+          "ParameterTypeFullName": "System.Int64"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::Sungero.Domain.Shared.IEntity",
+      "ReturnTypeFullName": "Sungero.Domain.Shared.IEntity, Sungero.Domain.Shared"
     }
   ],
   "PublicStructures": [],

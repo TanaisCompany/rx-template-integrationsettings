@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Property_ExternalId" xml:space="preserve">
+    <value>GUID обмена</value>
+  </data>
+  <data name="Property_Flow" xml:space="preserve">
+    <value>Поток</value>
+  </data>
+  <data name="Enum_Flow_Outgoing" xml:space="preserve">
+    <value>Исходящий</value>
+  </data>
+  <data name="Enum_Flow_Incoming" xml:space="preserve">
+    <value>Входящий</value>
+  </data>
+  <data name="Enum_ProcessingStatus_Processed" xml:space="preserve">
+    <value>Обработано</value>
+  </data>
+  <data name="Enum_ProcessingStatus_InProcessing" xml:space="preserve">
+    <value>В обработке</value>
+  </data>
+  <data name="FilterPanel_ProcessingStatusFlags_90e5b14a9f814e739f3c25e7ab700a9c" xml:space="preserve">
+    <value>СТАТУС ОБРАБОТКИ</value>
+  </data>
+  <data name="FilterPanel_ExternalEntityType_5aa9e0556b9d4db8908d7f0bc833fa7c" xml:space="preserve">
+    <value>ТИП СУЩНОСТИ</value>
+  </data>
+  <data name="Resource_c10ff1cd54794cdd9eb5f9586f736a34" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_c10ff1cd54794cdd9eb5f9586f736a34_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_87f48a35721b43149542182ac3b05a38" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_42359c37bf954248bbd335e0a755a8b2" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_9268206f26b0427fb0a4232538e8afef" xml:space="preserve">
+    <value>Примечание</value>
+  </data>
+  <data name="Resource_fe65459f773f4e2bb2f3efeb23402c82" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_fe65459f773f4e2bb2f3efeb23402c82_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_2a69b3b3ffde4dc9939d43034df1da77" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Property_IntegratedSystem" xml:space="preserve">
+    <value>Интегрированная система</value>
+  </data>
+  <data name="Property_EntityType" xml:space="preserve">
+    <value>Тип сущности</value>
+  </data>
+  <data name="FilterPanel_InProcessing_732ba37a1b8943b99c1041f3fffc2f49" xml:space="preserve">
+    <value>В обработке</value>
+  </data>
+  <data name="FilterPanel_ErrorOccurred_c3435f8c700b46e897ed710c51fc9a6d" xml:space="preserve">
+    <value>Возникла ошибка</value>
+  </data>
+  <data name="FilterPanel_NotProcessed_0985e3ba922e491088744c8ef7bc7a6f" xml:space="preserve">
+    <value>Не обработано</value>
+  </data>
+  <data name="FilterPanel_Processed_4762d050cc9a4921bcbec2eff1299626" xml:space="preserve">
+    <value>Обработано</value>
+  </data>
+  <data name="FilterPanel_LastUpdate_ebdea22de3674f3cbd0c594e6b363b9f" xml:space="preserve">
+    <value>ДАТА ИЗМЕНЕНИЯ</value>
+  </data>
+  <data name="FilterPanel_Last7Days_ce5105a0a26d43878c7dafb6f85102c1" xml:space="preserve">
+    <value>Последние 7 дней</value>
+  </data>
+  <data name="FilterPanel_Last30Days_061a927f7972495ca75287d10f8a797a" xml:space="preserve">
+    <value>Последние 30 дней</value>
+  </data>
+  <data name="FilterPanel_Last90Days_008725b095e84a84a08dc194e998b9e6" xml:space="preserve">
+    <value>Последние 90 дней</value>
+  </data>
+  <data name="FilterPanel_ManualPeriod_f4f54c2b0d3b49f895d4c7aee1795d1c" xml:space="preserve">
+    <value>Произвольный период</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Элемент очереди синхронизации</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Элемент очереди синхронизации</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Элементы очереди синхронизации</value>
+  </data>
+  <data name="Property_EntityId" xml:space="preserve">
+    <value>ID сущности</value>
+  </data>
+  <data name="Action_OpenEntity" xml:space="preserve">
+    <value>Открыть сущность</value>
+  </data>
+  <data name="Action_OpenEntityHint" xml:space="preserve">
+    <value>Открыть сущность</value>
+  </data>
+  <data name="Action_OpenEntityDescription" xml:space="preserve">
+    <value>Открыть сущность</value>
+  </data>
+  <data name="Ribbon_IntegrationCommands_e9e48d1f5298485ba37d588f9a953b5b" xml:space="preserve">
+    <value>Интеграция</value>
+  </data>
+</root>

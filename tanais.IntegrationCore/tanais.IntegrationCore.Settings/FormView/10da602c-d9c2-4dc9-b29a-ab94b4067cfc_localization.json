@@ -1,0 +1,31 @@
+{
+  "AuthGroup_Caption_aa27b9f1afe94be58489816fc977a3c6": {
+    "en-US": "Authorization",
+    "ru-RU": "Авторизация"
+  },
+  "Description": {},
+  "MainPage_Title_9858bec6aeda4a4ab6f01d77690e6863": {
+    "en-US": "Properties",
+    "ru-RU": "Свойства"
+  },
+  "Name": {
+    "en-US": "Integration Setting",
+    "ru-RU": "Настройка интеграции"
+  },
+  "Note_Caption_c0a3478b2e7947859a4af6ebe5f598ed": {
+    "en-US": "Note",
+    "ru-RU": "Примечание"
+  },
+  "Other_Caption_c031752aa40841c2af31d319c54bc959": {
+    "en-US": "Other",
+    "ru-RU": "Прочее"
+  },
+  "Search_Caption_1f08362f6a1344cb95905a5b51c85c30": {
+    "en-US": "Search",
+    "ru-RU": "Поиск"
+  },
+  "Send_Caption_ce274de502514b0c8f8d0c61cedf5611": {
+    "en-US": "Send",
+    "ru-RU": "Отправка"
+  }
+}

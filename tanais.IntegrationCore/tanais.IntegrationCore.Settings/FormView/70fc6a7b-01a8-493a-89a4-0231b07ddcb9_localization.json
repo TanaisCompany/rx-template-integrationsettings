@@ -1,0 +1,27 @@
+{
+  "Description": {},
+  "DescriptionGroup_Caption_b4a4aca0980449ddbfc8aed6ad48bc38": {
+    "en-US": "Description",
+    "ru-RU": "Описание"
+  },
+  "DocKindGroup_Caption_746fb1b755e44860ba4c5c625d134da3": {
+    "en-US": "Matching document kinds",
+    "ru-RU": "Соответствие видов документов"
+  },
+  "DocKinds_Title_97e2e38c6da04796bc5da3443cc66f08": {
+    "en-US": "Document kinds",
+    "ru-RU": "Виды документов"
+  },
+  "MainPage_Title_29ee07c3be7f460496df9134530b1844": {
+    "en-US": "Properties",
+    "ru-RU": "Свойства"
+  },
+  "MatchingDocTypeGroup_Caption_4fa40103bd3f41739c380a004031f2c6": {
+    "en-US": "Matching document types",
+    "ru-RU": "Соответствие типов документов"
+  },
+  "Name": {
+    "en-US": "Document synchronization settings",
+    "ru-RU": "Настройки синхронизации документов"
+  }
+}

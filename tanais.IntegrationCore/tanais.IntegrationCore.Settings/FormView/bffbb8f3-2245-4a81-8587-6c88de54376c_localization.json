@@ -1,0 +1,17 @@
+{
+  "ControlGroup_Caption_55631ebe9b4948e0a72bb7eff4ffcd34": {
+    "en-US": "JSON"
+  },
+  "Description": {},
+  "IntegrationCommands_Caption_e9e48d1f5298485ba37d588f9a953b5b": {
+    "en-US": "Integration",
+    "ru-RU": "Интеграция"
+  },
+  "Json_Title_99da14cca5104872a9788139458880f3": {
+    "en-US": "Json"
+  },
+  "Name": {
+    "en-US": "Synchronization queue item",
+    "ru-RU": "Элемент очереди синхронизации"
+  }
+}

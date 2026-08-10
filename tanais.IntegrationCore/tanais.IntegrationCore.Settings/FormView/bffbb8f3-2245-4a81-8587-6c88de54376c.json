@@ -499,6 +499,7 @@
             "OriginEntityTypeGuid": "3cb1ccb0-199f-4f71-9920-14e2a7f6ede9",
             "Index": 100000,
             "ContextMenuIndex": null,
+            "ContextMenuParentGroupId": null,
             "ParentId": "e9e48d1f-5298-485b-a37d-588f9a953b5b",
             "IsVisible": true,
             "IsMain": null,
